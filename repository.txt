@@ -2,7 +2,7 @@
 	<addon:GameMode_Flappy_Bird>
 		<channel:beta>
 			<version:0.1.1>
-			<file:http://dl.dropboxusercontent.com/u/70373565/Add-Ons/Flappy/beta/0.1.1/GameMode_Flappy_Bird.zip>
+			<file:http://lakeys.github.io/flappybird/0.1.1/GameMode_Flappy_Bird.zip>
 			<crc:1584283796>
 			<changelog:http://lakeys.github.io/changelog_FlappyBird.txt>
 		</channel>
