@@ -3,5 +3,5 @@ Cleaned up code
 </version>
 
 <version:0.1.5>
-Removed unused Brick_PrintPlatesCeiling from required add-ons\
-</version
+Removed unused Brick_PrintPlatesCeiling from required add-ons
+</version>
