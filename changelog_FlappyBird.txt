@@ -1,1 +1,2 @@
 0.1.4: Cleaned up code
+0.1.5: Removed unused Brick_PrintPlatesCeiling from required add-ons

@@ -1,9 +1,9 @@
 <repository:Lake>
 	<addon:GameMode_Flappy_Bird>
 		<channel:*>
-			<version:0.1.4>
-			<file:http://lakeys.github.io/flappybird/0.1.4/GameMode_Flappy_Bird.zip>
-			<crc:-870631674>
+			<version:0.1.5>
+			<file:http://lakeys.github.io/flappybird/0.1.5/GameMode_Flappy_Bird.zip>
+			<crc:1222443416>
 			<changelog:http://lakeys.github.io/changelog_FlappyBird.txt>
 		</channel>
 	</addon>
