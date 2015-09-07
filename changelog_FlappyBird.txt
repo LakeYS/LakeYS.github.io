@@ -5,3 +5,7 @@ Cleaned up code
 <version:0.1.5>
 Removed unused Brick_PrintPlatesCeiling from required add-ons
 </version>
+
+<version:0.1.6>
+Fixed admin commands disabling score when used by a non-admin
+</version>
