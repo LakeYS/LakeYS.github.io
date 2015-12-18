@@ -1,7 +1,7 @@
 <repository:Lake>
 	<addon:Client_Log_Players>
 		<desc:Logs players that you encounter in-game.>
-		<channel:beta>
+		<channel:*>
 			<version:1.0.0>
 			<file:http://lakeys.github.io/log_players/1.0.0/Client_Log_Players.zip>
 			<changelog:http://lakeys.github.io/changelog_Log_Players.txt>
