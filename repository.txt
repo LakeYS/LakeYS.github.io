@@ -1,5 +1,22 @@
 <repository:Lake>
+	<addon:Client_Log_Players>
+		<desc:Logs players that you encounter in-game.>
+		<channel:alpha>
+			<version:1.0.0>
+			<file:http://lakeys.github.io/log_players/1.0.0/Client_Log_Players.zip>
+			<changelog:http://lakeys.github.io/changelog_Log_Players.txt>
+		</channel>
+	</addon>
+	<addon:Client_Joystick>
+		<desc:Allows you to play the game with a controller.>
+		<channel:alpha>
+			<version:1.0.0>
+			<file:http://lakeys.github.io/joystick/1.0.0/Client_Joystick.zip>
+			<changelog:http://lakeys.github.io/changelog_Joystick.txt>
+		</channel>
+	</addon>
 	<addon:GameMode_Flappy_Bird>
+		<desc:Flap Endlessly>
 		<channel:*>
 			<version:0.1.6>
 			<file:http://lakeys.github.io/flappybird/0.1.6/GameMode_Flappy_Bird.zip>
