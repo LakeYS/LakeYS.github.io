@@ -2,7 +2,7 @@
 	<ul>
 		<li>Fixed issue that would cause scores to stop saving.</li>
 		<li>You can now view the stats of other players by typing <b>/stats <i>(Name or BLID)</i></b></li>
-		<li>Your score is now counted if you disconnect while you're alive. (In case someone times out or crashes while playing)
+		<li>Your score is now counted if you disconnect while you're alive. (In case someone times out or crashes while playing)</li>
 		<li>Added the platinum medal, awarded at 1,600. If you previously earned this score you will automatically receive the medal in your stats.</li>
 		<li>Gold medal is now awarded at 800 instead of 600. Previously earned medals are not affected.</li>
 		<li>The score bottomprint now stays after you die.</li>
