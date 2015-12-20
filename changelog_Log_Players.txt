@@ -1,8 +1,9 @@
+<version:1.1.0>
+	<ul>
+		<li>Added playtime logging.</li>
+		<li>Added IDLogger_FindSessionIDByName function.</li>
+	</ul>
+</version>
 <version:1.0.0>
 Initial
-</version>
-<version:1.1.0>
-Added playtime logging
-Added functions to search for players by name
-Cleaned up code
 </version>
