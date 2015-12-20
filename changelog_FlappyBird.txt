@@ -1,11 +1,26 @@
-<version:0.1.4>
-Cleaned up code
+<version:0.1.7>
+	<ul>
+		<li>Fixed issue that would cause scores to stop saving.</li>
+		<li>You can now view the stats of other players by typing <b>/stats <i>(Name or BLID)</i></b></li>
+		<li>Your score is now counted if you disconnect while you're alive. (In case someone times out or crashes while playing)
+		<li>Added the platinum medal, awarded at 1,600. If you previously earned this score you will automatically receive the medal in your stats.</li>
+		<li>Gold medal is now awarded at 800 instead of 600. Previously earned medals are not affected.</li>
+		<li>The score bottomprint now stays after you die.</li>
+		<li>Removed console spam caused by the leaderboard command.</li>
+	</ul>
 </version>
-
-<version:0.1.5>
-Removed unused Brick_PrintPlatesCeiling from required add-ons
-</version>
-
 <version:0.1.6>
-Fixed admin orb triggering anti-cheat when used by non-admins
+	<ul>
+		<li>Fixed admin orb triggering anti-cheat when used by non-admins.</li>
+	</ul>
+</version>
+<version:0.1.5>
+	<ul>
+		<li>Removed unused Brick_PrintPlatesCeiling from required add-ons.</li>
+	</ul>
+</version>
+<version:0.1.4>
+	<ul>
+		<li>Cleaned up code.</li>
+	</ul>
 </version>

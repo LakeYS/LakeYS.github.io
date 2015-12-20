@@ -18,9 +18,9 @@
 	<addon:GameMode_Flappy_Bird>
 		<desc:Flap Endlessly>
 		<channel:*>
-			<version:0.1.6>
-			<file:http://lakeys.github.io/flappybird/0.1.6/GameMode_Flappy_Bird.zip>
-			<crc:1359200672>
+			<version:0.1.7>
+			<CRC:1291052152>
+			<file:http://lakeys.github.io/flappybird/0.1.7/GameMode_Flappy_Bird.zip>
 			<changelog:http://lakeys.github.io/changelog_FlappyBird.txt>
 		</channel>
 	</addon>
