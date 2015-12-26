@@ -1,3 +1,13 @@
+<version:0.1.8>
+	<ul>
+		<li><b>Coming soon! This update has not been released yet.</li>
+		<li>Minor fixes for the /stats command.</li>
+		<li>You can now toggle the 2D camera by pressing F7. (Be careful, pressing F8 still opens admin orb which disables your score!)</li>
+		<li>Triggering anti-cheat (with commands like orb and /find) now counts as a death, meaning that your score will be saved before anti-cheat takes effect.</li>
+		<li>Changed the look angle limits back to default.</li>
+		<li>Added an RTB pref to show the top score in the server name. (This is off by default.)</li>
+	</ul>..
+</version>
 <version:0.1.7>
 	<ul>
 		<li>Fixed issue that would cause scores to stop saving.</li>
