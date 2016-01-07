@@ -1,7 +1,11 @@
-<version:1.1.1>
+<version:1.2.0>
 	<ul>
-		<li>Playtime logging fixes</li>
-	<ul>
+		<li>Playtime logging is temporarily disabled due to bugs.</li>
+		<li>Fixed the LAN ID and blank ".log" files being created. (These will be deleted automatically)</li>
+		<li>Added console command: IDLogger_Search(<i>Name</i>);</li>
+		<li>Added console command: IDLogger_ViewStats(<i>Blockland ID</i>);</li>
+		<li>Added console command: IDLogger_ViewNameHistory(<i>Blockland ID</i>);</li>
+	</ul>
 </version>
 <version:1.1.0>
 	<ul>

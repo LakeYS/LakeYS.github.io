@@ -2,8 +2,8 @@
 	<addon:Client_Log_Players>
 		<desc:Logs players that you encounter in-game.>
 		<channel:*>
-			<version:1.1.0>
-			<file:http://lakeys.github.io/log_players/1.1.0/Client_Log_Players.zip>
+			<version:1.2.0>
+			<file:http://lakeys.github.io/log_players/1.2.0/Client_Log_Players.zip>
 			<changelog:http://lakeys.github.io/changelog_Log_Players.txt>
 		</channel>
 	</addon>
