@@ -1,6 +1,6 @@
 <version:0.2.0>
 	<ul>
-		<li>Reduced the brick count from 10,014 to 9,326.<li>
+		<li>Reduced the brick count from 10,014 to 9,326.</li>
 		<li>Removed unused colors from the colorset to reduce datablocks.</li>
 		<li>Fixed certain bricks not killing players when touched.</li>
 		<li>Minor changes to the code.</li>
