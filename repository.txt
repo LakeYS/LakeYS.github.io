@@ -7,14 +7,6 @@
 			<changelog:http://lakeys.github.io/changelog_Log_Players.txt>
 		</channel>
 	</addon>
-	<addon:Client_Joystick>
-		<desc:Allows you to play the game with a controller.>
-		<channel:alpha>
-			<version:1.0.0>
-			<file:http://lakeys.github.io/joystick/1.0.0/Client_Joystick.zip>
-			<changelog:http://lakeys.github.io/changelog_Joystick.txt>
-		</channel>
-	</addon>
 	<addon:GameMode_Flappy_Bird>
 		<desc:Flap Endlessly>
 		<channel:*>
@@ -24,4 +16,12 @@
 			<changelog:http://lakeys.github.io/changelog_FlappyBird.txt>
 		</channel>
 	</addon>
+	<addon:Server_CellPhones>
+	<desc:Adds Cellphones with a ton a features.>
+	<channel:*>
+		<version:1.1.0>
+		<file:http://lakeys.github.io/cellphones/1.1.0/Server_CellPhones.zip>
+		<changelog:http://lakeys.github.io/changelog_CellPhones.txt>
+	</channel>
+</addon>
 </repository>
