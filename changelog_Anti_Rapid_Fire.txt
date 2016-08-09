@@ -1,6 +1,6 @@
 <b>Note: If you encounter any issues related to opening or scrolling through tools/paint/bricks, it is likely related to this add-on. Feel free to contact me if you find any problems.</b>
 <br>Here's a link to my forum profile in case you need to contact me: <a:http://forum.blockland.us/index.php?action=profile;u=115317>http://forum.blockland.us/index.php?action=profile;u=115317</a>
-<br>
+<br><br>
 <version:1.2.0>
 	<ul>
 		<li>Fixed tools getting stuck frequently when closing them.</li>
