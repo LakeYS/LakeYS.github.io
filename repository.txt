@@ -27,8 +27,8 @@
 	<addon:Server_Anti_Rapid_Fire>
 	<desc:Prevents users from using the client-sided "Rapid fire" add-on>
 	<channel:*>
-		<version:1.1.0>
-		<file:http://lakeys.github.io/antirapidfire/1.1.0/Server_Anti_Rapid_Fire.zip>
+		<version:1.2.0>
+		<file:http://lakeys.github.io/antirapidfire/1.2.0/Server_Anti_Rapid_Fire.zip>
 		<changelog:http://lakeys.github.io/changelog_Anti_Rapid_Fire.txt>
 	</channel>
 	</addon>
