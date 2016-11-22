@@ -1,60 +1,93 @@
 <!DOCTYPE html><html lang="en-US">
 <head>
-<style>
-h1 {
-    display: inline;
-	font-size: 300%;
-}
+	<style>
+	h1 {
+		display: inline;
+		font-size: 300%;
+	}
 
-h2 {
-	display: inline;
-	font-size: 200%;
-}
+	h2 {
+		display: inline;
+		font-size: 175%;
+	}
 
-td {
-	text-align: center;
-}
+	td {
+		text-align: center;
+	}
 
-body {
-    font-family: "Arial", Helvetica, sans-serif;
-	background-color: #B8B8B9;
-	text-align: center
-}
+	body {
+		font-family: "Arial", Helvetica, sans-serif;
+		background-color: #B8B8B9;
+		text-align: center
+	}
 
-a {
-	text-decoration: none;
-}
+	a {
+		text-decoration: none;
+	}
 
-.profileCard {
-	background-color: #D1D1D1;
-	display: inline-block;
-	width: 64px;
-	padding: 7px;
-	text-align: center;
-	border-radius: 10px;
-	
-}
+	.profileCard {
+		background-color: #C9C9C9;
+		display: inline-block;
+		width: 64px;
+		padding: 7px;
+		text-align: center;
+		border-radius: 10px;
+		margin:3px;
+	}
 
-.profileCard:hover {
-	background-color: #E6E6E6;
-}
-</style>
-<title>Lake</title>
-</head> <!-- TODO: Add more detailed BL file links and other add-ons -->
+	.profileCard:hover {
+		background-color: #D6D6D6;
+		
+	}
+
+	.projectCard {
+		background-color: #C9C9C9;
+		display: inline-table;
+		
+		width: 180px;
+		height: 100px;
+		padding: 7px;
+		margin: 3px;
+		border-radius: 10px;
+		background-repeat: no-repeat;
+		
+		
+		text-align: center;
+		color: #EEEEEE;
+		text-shadow: 0px 0px 3px #000000;
+		font-weight: bold;
+	}
+
+	.projectCard:hover {
+		background: #D6D6D6;
+		filter: opacity(85%);
+	}
+
+	.none {
+		display:none;
+	}
+	</style>
+	<title>Lake</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
 	<h1>Lake</h1>
 	<p>
 	<a class="profileCard" href=https://github.com/LakeYS><img src=https://github.com/favicon.ico width=16><br>GitHub</a>
+	<br class="none">
 	<a class="profileCard" href=https://www.youtube.com/channel/UCbf0Z8_7x6pW9TOe4AmAEVg><img src=https://www.youtube.com/favicon.ico><br>YouTube</a>
 	</p>
-	<br>
+	
 	<h2>Blockland</h2>
 	<p>
-	<a href=https://drive.google.com/folderview?id=0B6FgyBz5kxXdSW5RVFFYcEJNWXM&usp=sharing#list>Lake's Blockland Files (Google Drive)</a>
-	<br>
-	<a href=https://forum.blockland.us/index.php?topic=284194.0>Flappy Bird Game-Mode</a> - <a href = https://www.youtube.com/watch?v=uRN587hi4w4>(Video)</a>
-	<br>
-	<a href=https://github.com/LakeYS/blockland-crumbling-arena-new/wiki>Crumbling Arena Game-Mode (WIP)</a>
+	
+	<a class="projectCard" href=https://drive.google.com/folderview?id=0B6FgyBz5kxXdSW5RVFFYcEJNWXM&usp=sharing#list>Lake's Blockland Files (Google Drive)</a>
+	<br class="none">
+	<a class="projectCard" href=https://github.com/LakeYS/blockland-crumbling-arena-new/wiki>Crumbling Arena Game-Mode</a>
+	<br class="none">
+	<a class="projectCard" style="background: #E6E6E6 url(p_flappy.jpg)" href=https://www.youtube.com/watch?v=uRN587hi4w4>(Video)<span class="none"> Flappy Bird in Blockland</span></a>
+	
+	
 	</p>
 </body>
 </html>
