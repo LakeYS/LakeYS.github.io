@@ -96,5 +96,41 @@
 	<a target="_blank" class="projectCard" style="background: #E6E6E6 url(p_rmod.jpg)" href=https://www.youtube.com/watch?v=sAWx5RI9jkc>(Video)<br>°д°</a>
 	
 	</p>
+	
+	<h2>Hello World!</h2>
+	<div id="clock-container">
+	<div id="time"></div>
+	<div id="day"></div>
+	<div id="month"></div>
+	</div>
+
+	<script>
+
+	var days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+	var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+	function displayDate()
+	{
+		var d = new Date();
+		
+		// Convert the numbers to strings and add zeros
+		hours = d.getHours();
+		minutes = d.getMinutes();
+		seconds = d.getSeconds();
+		
+		hours = hours+""; while(hours.length < 2) hours = "0"+hours;
+		minutes = minutes+""; while(minutes.length < 2) minutes = "0"+minutes;
+		seconds = seconds+""; while(seconds.length < 2) seconds = "0"+seconds;
+		
+		document.getElementById("day").innerHTML = days[d.getDay()];
+		document.getElementById("month").innerHTML = months[d.getMonth()]+ " " + d.getDate();
+		document.getElementById("time").innerHTML = hours + ":" + minutes + ":" + seconds;
+		
+		timeoutDate = setTimeout("displayDate()",1000);
+	}
+
+	displayDate();
+
+	</script>
 </body>
 </html>
