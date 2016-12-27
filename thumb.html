@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+/*  #image1 {
+    background-image:url("./Ep3 Img1.jpg");
+    background-position:center;
+    background-size:1880px;
+  }
+  //Simple center crop, 1280x720 size
+  */
+  /*#image1 {
+      width:720px;
+      height:720px;
+      background-image:url("./Ep3 Img1.jpg");
+      background-position:-250px -0px;
+      background-size:cover;
+    }
+  //1:1 centered crop
+  */
+  body {
+    margin:0;
+  }
+
+  .image1clip {
+    overflow:hidden;
+    position:absolute;
+    margin-left:320px;
+    margin-top:-170px;
+    clip:rect(170px,960px,890px,100px);
+
+    border-top-style:solid;
+  }
+  .image1cont {
+    width:800px;
+    height:1280px;
+    margin-left:280px;
+
+    background-color:transparent;
+    overflow:hidden;
+    transform:rotate(15deg);
+    background-color:silver;
+    border-style:solid;
+    border-width:15px;
+  }
+  .image1 {
+      position:relative;
+      width:1280px;
+      height:850px;
+      margin-left:-140px;
+      background-image:url("./Ep3 Img1.jpg");
+      background-position:-315px 50px;
+      background-size:cover;
+      transform:rotate(-15deg);
+      overflow:hidden;
+    }
+
+  .image2 {
+    width:1280px;
+    height:720px;
+    background-image:url("./Ep3 Img2.jpg");
+    background-position:center;
+    background-size:cover;
+    position:absolute;
+    margin-left:-300px;
+    overflow:hidden;
+  }
+
+  .number {
+    position:absolute;
+    text-shadow:4px 4px 20px black;
+    font-size:140pt;
+    margin-top:-24px;
+    margin-left:10px;
+    font-family:sans-serif;
+    font-weight:bold;
+    -webkit-text-stroke:6px black;
+    color:#FFFFFF;
+  }
+
+  #numberB {
+    font-size:120pt;
+  }
+  </style>
+</head>
+<body>
+  <div class="image2"></div>
+  <div class="image1clip"><div class="image1cont"><div class="image1"></div></div></div>
+  <span class="number"><span id="numberB">#</span>3</span>
+</body>
+</html>

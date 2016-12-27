@@ -18,7 +18,7 @@
 	body {
 		font-family: "Arial", Helvetica, sans-serif;
 		background-color: #B8B8B9;
-		
+
 		max-width:1000px;
 		text-align:center;
 		margin:auto;
@@ -40,21 +40,21 @@
 
 	.profileCard:hover {
 		background-color: #D6D6D6;
-		
+
 	}
 
 	.projectCard {
 		background-color: #C9C9C9;
 		display: inline-table;
-		
+
 		width: 180px;
 		height: 96px;
 		padding: 7px;
 		margin: 3px;
 		border-radius: 10px;
 		background-repeat: no-repeat;
-		
-		
+
+
 		text-align: center;
 		color: #EEEEEE;
 		text-shadow: 0px 0px 3px #000000;
@@ -80,23 +80,23 @@
 	<br class="none">
 	<a class="profileCard" href=https://www.youtube.com/channel/UCbf0Z8_7x6pW9TOe4AmAEVg><img src=https://www.youtube.com/favicon.ico><br>YouTube</a>
 	</p>
-	
+
 	<h2>Blockland Projects</h2>
 	<p>
-	
+
 	<a target="_blank" class="projectCard" href=https://drive.google.com/folderview?id=0B6FgyBz5kxXdSW5RVFFYcEJNWXM&usp=sharing#list>Lake's Blockland Files (Google Drive)</a>
 	<br class="none">
-	
+
 	<a target="_blank" class="projectCard" href=https://github.com/LakeYS/blockland-crumbling-arena-new/wiki>Crumbling Arena Game-Mode (GitHub)</a>
 	<br class="none">
-	
+
 	<a target="_blank" class="projectCard" style="background: #E6E6E6 url(p_flappy.jpg)" href=https://www.youtube.com/watch?v=uRN587hi4w4>(Video)<span class="none"> Flappy Bird in Blockland</span></a>
 	<br class="none">
-	
+
 	<a target="_blank" class="projectCard" style="background: #E6E6E6 url(p_rmod.jpg)" href=https://www.youtube.com/watch?v=sAWx5RI9jkc>(Video)<br>°д°</a>
-	
+
 	</p>
-	
+
 	<h2>Hello World!</h2>
 	<div id="clock-container">
 	<div id="time"></div>
@@ -112,20 +112,20 @@
 	function displayDate()
 	{
 		var d = new Date();
-		
+
 		// Convert the numbers to strings and add zeros
 		hours = d.getHours();
 		minutes = d.getMinutes();
 		seconds = d.getSeconds();
-		
+
 		hours = hours+""; while(hours.length < 2) hours = "0"+hours;
 		minutes = minutes+""; while(minutes.length < 2) minutes = "0"+minutes;
 		seconds = seconds+""; while(seconds.length < 2) seconds = "0"+seconds;
-		
+
 		document.getElementById("day").innerHTML = days[d.getDay()];
 		document.getElementById("month").innerHTML = months[d.getMonth()]+ " " + d.getDate();
 		document.getElementById("time").innerHTML = hours + ":" + minutes + ":" + seconds;
-		
+
 		timeoutDate = setTimeout("displayDate()",1000);
 	}
 
