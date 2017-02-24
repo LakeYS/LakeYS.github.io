@@ -32,4 +32,12 @@
 		<changelog:http://lakeys.github.io/changelog_Anti_Rapid_Fire.txt>
 	</channel>
 	</addon>
+	<addon:Support_Render>
+	<desc:A survival horror mod that introduces Render, a mysterious entity that haunts Blockland.>
+	<channel:*>
+		<version:1.0.0>
+		<file:http://lakeys.github.io/render/1.0.0/Support_Render.zip>
+		<changelog:http://lakeys.github.io/changelog_Render.txt>
+	</channel>
+	</addon>
 </repository>
