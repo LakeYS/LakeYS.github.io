@@ -1,11 +1,13 @@
 <version:1.1.0>
-	- Added the Glitch Gun! This is a single-use item that allows you to repel Render.
-	- Updated the description to include model credit and Blockland IDs.
-	- Tweaked the detector text for accuracy.
-	- Fixed detectors getting stuck in certain states.
-	- Fixed detector icon not showing up in the tool menu.
-	- Fixed console error related to detectors on server start.
-	- Improved the spawning AI; Render's choices of spawn positions are sneakier and more balanced.
+	<ul>
+		<li>Added the Glitch Gun! This is a single-use item that allows you to repel Render.</li>
+		<li>Updated the description to include model credit and Blockland IDs.</li>
+		<li>Tweaked the detector text for accuracy.</li>
+		<li>Fixed detectors getting stuck in certain states.</li>
+		<li>Fixed detector icon not showing up in the tool menu.</li>
+		<li>Fixed console error related to detectors on server start.</li>
+		<li>Improved the spawning AI; Render's choices of spawn positions are sneakier and more balanced.</li>
+	</ul>
 </version>
 <version:1.0.0>
 	Initial release
