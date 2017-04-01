@@ -1,3 +1,13 @@
+<version:1.2.0>
+April 1 - The Mystery Update
+	<ul>
+		<li>Added Mystery Update A. Something seems different about Render...</li>
+		<li>Added Mystery Update B.</li>
+		<li>Numerous changes and fixes for Render's 'static' damage effect.</li>
+		<li>Fixed an issue with preferences not loading properly. If you were previously having trouble accessing prefs, try them now.</li>
+		<li>Minor pref updates for clarification.</li>
+	</ul>
+		
 <version:1.1.0>
 	<ul>
 		<li>Added the Glitch Gun! This is a single-use item that allows you to repel Render.</li>
