@@ -35,8 +35,8 @@
 	<addon:Support_Render>
 	<desc:A survival horror mod that introduces Render, a mysterious entity that haunts Blockland.>
 	<channel:*>
-		<version:1.2.0>
-		<file:http://lakeys.github.io/render/1.2.0/Support_Render.zip>
+		<version:1.2.1>
+		<file:http://lakeys.github.io/render/1.2.1/Support_Render.zip>
 		<changelog:http://lakeys.github.io/changelog_Render.txt>
 	</channel>
 	</addon>

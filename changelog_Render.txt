@@ -1,3 +1,13 @@
+<version:1.2.1>
+Updated pref names. The reveal:
+
+Self-Defense (Mystery Update A) 
+By popular request, you can now use weapons against Render! There is a preference to toggle this on or off. 
+
+Tag Mode (Mystery Update B)
+This is a new mode that can be enabled under the preferences menu. In tag mode, it is safe to look at Render at any time. Don't let him catch you, though...
+</version>
+
 <version:1.2.0>
 April 1 - The Mystery Update
 	<ul>
@@ -19,6 +29,7 @@ April 1 - The Mystery Update
 		<li>Improved the spawning AI; Render's choices of spawn positions are sneakier and more balanced.</li>
 	</ul>
 </version>
+
 <version:1.0.0>
 	Initial release
 </version>
