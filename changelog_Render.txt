@@ -1,12 +1,10 @@
 <version:1.2.1>
 Updated pref names. The reveal:
 <ul>
-<li>Self-Defense (Mystery Update A) 
-By popular request, you can now use weapons against Render! There is a preference to toggle this on or off. 
+<li>Self-Defense (Mystery Update A): By popular request, you can now use weapons against Render! There is a preference to toggle this on or off. 
 </li>
-<li>Tag Mode (Mystery Update B)
-This is a new mode that can be enabled under the preferences menu. In tag mode, it is safe to look at Render at any time. Don't let him catch you, though...
-</li>
+<li>Tag Mode (Mystery Update B): This is a new mode that can be enabled under the preferences menu. In tag mode, it is safe to look at Render at any time. Don't let him catch you, though...
+</li></ul>
 </version>
 
 <version:1.2.0>
