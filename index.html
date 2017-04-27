@@ -14,9 +14,9 @@
 
 	<style>
   body {
-		font-family: "Arial", Helvetica, sans-serif;
-    background-color: #0B5DB9;
-    color: #ABD4FF;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #08458A; /*#08458A*/
+    color: #ABD4FF; /*#ABD4FF*/
 
 		text-align:center;
 		margin:auto;
@@ -31,7 +31,7 @@
     font-size: 175%;
     width: 100%;
     margin-bottom: 10px;
-    background-color: #08458A;
+    background-color: #0B5DB9; /*#0B5DB9*/
     box-shadow: 0px 0px 4px #000000;
 
     text-shadow: 0px 0px 3px #000000;
@@ -47,15 +47,13 @@
 
     margin: 14px;
 
-    width: 320px;
-    height: 240px;
-    background-color: #06569E;
+    width: 350px;
+    height: 280px;
+    background-color: #06569E; /*#06569E*/
     display: inline-block;
 
-    font-size: 14px;
-
-    border: 1px solid #06457E;
     box-shadow: 1px 1px 10px -2px #000000;
+    border-radius: 10px;
   }
 
   .projectCardHeader {
@@ -73,7 +71,6 @@
   .projH2 {
     font-size: 15px;
     line-height:6px;
-    font-family: serif;
   }
 
   .projImg {
@@ -90,13 +87,15 @@
     height: 60%;
     overflow: auto;
 
+    font-size: 16px;
+
     padding-left: 3px;
     padding-right: 3px;
   }
 
   .projectCardButton {
     display: block;
-    background-color: #11af0c;
+    background-color: #11af0c; /*#11af0c*/
 
     bottom:0;
     position: absolute;
@@ -104,12 +103,12 @@
     color: white;
     box-shadow: inset 0px 0px 18px -4px #000000;
 
-    border: 1px solid black;
+    border-top: 1px solid black;
 
-    font-family: sans-serif;
     font-size: 24px;
-    padding: 4px;
+    line-height: 30px;
 
+    padding: 4px;
     vertical-align: middle;
 
     width: 50%;
@@ -125,17 +124,20 @@
   }
 
   .material-icons, .icon-text {
-  vertical-align: text-bottom;
+  vertical-align: middle;
 }
   </style>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro" rel="stylesheet">
 
+  <meta charset="UTF-8">
+  <meta name="author" content="Lake Y">
+  <meta name="description" content="Lake's personal website and portal, with featured projects including Support_Render and Conundrum Gaming.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <div class="header"><h1>Lake</h1></div>
+  <div class="header"><h1>LakeYS</h1></div>
 
   <div class="projectCard">
     <div class="projectCardHeader">
@@ -145,10 +147,10 @@
     </div>
     <div class="projectCardBody">
       <p class="projParagraph">A survival horror modification for Blockland. It introduces Render, a mysterious entity that haunts the game. </p>
-      <p class="projParagraph">This project introduces first-of-its-kind AI to Blockland, as well as original sound effects and community-created models.</p>
+      <p class="projParagraph">This project introduces unique AI as well as original sound effects and community-created models.</p>
     </div>
     <a class="projectCardButton" target='_blank' style="width:40%; left:0; background-color:#1269e2;" href="https://github.com/LakeYS/blockland-render"><i class="material-icons">code</i> Source</a>
-    <a class="projectCardButton"  style="width:55%; right:0;" href="https://github.com/LakeYS/LakeYS.github.io/blob/master/render/latest/Support_Render.zip?raw=true"><i class="material-icons">file_download</i> Download</a>
+    <a class="projectCardButton"  style="width:55.4%; right:0;" href="https://github.com/LakeYS/LakeYS.github.io/blob/master/render/latest/Support_Render.zip?raw=true"><i class="material-icons">file_download</i> Download</a>
   </div>
 
   <div class="projectCard">
@@ -159,9 +161,9 @@
     </div>
     <div class="projectCardBody">
       <p class="projParagraph">A YouTube channel about gaming! Featuring cforsyth0, Knight Zeras, Lake, PunisherLex, Sparky Power, Zanearoony, ZeUnknown, and Zyllos007.</p>
-      <p class="projParagraph">Editing and channel artwork by Lake (except where otherwise stated).</p>
+      <p class="projParagraph">Editing and channel artwork by Lake (except where otherwise indicated).</p>
     </div>
-    <a class="projectCardButton" target='_blank' style="width:97.5%; left:0; background-color: #b72616;" href="https://www.youtube.com/channel/UCIt0N6RuBRKbkRhUujy5u9A"><i class="material-icons">play_arrow</i> Watch on YouTube</a>
+    <a class="projectCardButton" target='_blank' style="width:97.8%; left:0; background-color: #b72616;" href="https://www.youtube.com/channel/UCIt0N6RuBRKbkRhUujy5u9A"><i class="material-icons">play_arrow</i> Watch on YouTube</a>
   </div>
 
   <div class="projectCard">
@@ -174,8 +176,8 @@
       <p class="projParagraph">Includes a dynamic leaderboard, a scoring system, and infinite looping pipes.</p>
     </div>
     <a class="projectCardButton" target='_blank' style="width:12%; left:0; background-color:#b72616;" href="https://www.youtube.com/watch?v=uRN587hi4w4"><i class="material-icons" style="padding-right: 4px;">play_arrow</i></a>
-    <a class="projectCardButton" target='_blank' style="width:35%; left:46px; background-color:#1269e2;" href="https://github.com/LakeYS/blockland-flappy-bird"><i class="material-icons">code</i> Source</a>
-    <a class="projectCardButton" style="width:45%; right:0;" href="https://github.com/LakeYS/LakeYS.github.io/blob/master/flappybird/latest/GameMode_Flappy_Bird.zip?raw=true"><i class="material-icons">file_download</i> Download</a>  </div>
+    <a class="projectCardButton" target='_blank' style="width:37%; left:46px; background-color:#1269e2;" href="https://github.com/LakeYS/blockland-flappy-bird"><i class="material-icons">code</i> Source</a>
+    <a class="projectCardButton" style="width:45.3%; right:0;" href="https://github.com/LakeYS/LakeYS.github.io/blob/master/flappybird/latest/GameMode_Flappy_Bird.zip?raw=true"><i class="material-icons">file_download</i> Download</a>  </div>
 
 </body>
 </html>
