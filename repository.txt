@@ -4,7 +4,7 @@
 		<channel:*>
 			<version:1.2.0>
 			<file:http://lakeys.github.io/log_players/1.2.0/Client_Log_Players.zip>
-			<changelog:http://lakeys.github.io/changelog_Log_Players.txt>
+			<changelog:http://lakeys.net/changelog_Log_Players.txt>
 		</channel>
 	</addon>
 	<addon:GameMode_Flappy_Bird>
@@ -13,7 +13,7 @@
 			<version:0.2.0>
 			<CRC:-1781298507>
 			<file:http://lakeys.github.io/flappybird/0.2.0/GameMode_Flappy_Bird.zip>
-			<changelog:http://lakeys.github.io/changelog_FlappyBird.txt>
+			<changelog:http://lakeys.net/changelog_FlappyBird.txt>
 		</channel>
 	</addon>
 	<addon:Server_CellPhones>
@@ -21,7 +21,7 @@
 	<channel:*>
 		<version:1.1.0>
 		<file:http://lakeys.github.io/cellphones/1.1.0/Server_CellPhones.zip>
-		<changelog:http://lakeys.github.io/changelog_CellPhones.txt>
+		<changelog:http://lakeys.net/changelog_CellPhones.txt>
 	</channel>
 	</addon>
 	<addon:Server_Anti_Rapid_Fire>
@@ -29,7 +29,7 @@
 	<channel:*>
 		<version:1.2.0>
 		<file:http://lakeys.github.io/antirapidfire/1.2.0/Server_Anti_Rapid_Fire.zip>
-		<changelog:http://lakeys.github.io/changelog_Anti_Rapid_Fire.txt>
+		<changelog:http://lakeys.net/changelog_Anti_Rapid_Fire.txt>
 	</channel>
 	</addon>
 	<addon:Support_Render>
@@ -37,7 +37,7 @@
 	<channel:*>
 		<version:1.3.0>
 		<file:http://lakeys.github.io/render/1.3.0/Support_Render.zip>
-		<changelog:http://lakeys.github.io/changelog_Render.txt>
+		<changelog:http://lakeys.net/changelog_Render.txt>
 	</channel>
 	</addon>
 </repository>
