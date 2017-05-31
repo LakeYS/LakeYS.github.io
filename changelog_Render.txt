@@ -1,3 +1,15 @@
+<version:1.4>
+	<ul>
+		<li>Added minigame events: setRenderSpawnrate, setRenderInvincibility, setRenderMode</li>
+		<li>Added detector bricks! These bricks call onRelay when Render is nearby.</li>
+		<li>Glitch Shrines now show the shrine range when clicked.</li>
+		<li>Added Haunt Mode, a mode where Render does not attack at all.</li>
+		<li>Fixed sound effects not playing in tag mode.</li>
+		<li>Fixed screen flickering when Render attacks an invincible player.</li>
+		<li>Shrines are now much less likely to cause performance issues when spammed. (Also applies to the new detector bricks)</li>
+		<li>Added Slayer pref: Points for killing Render</li>
+	</ul>
+</version>
 <version:1.3>
 	<ul>
 		<li>Added Slayer compatibility! You can now configure Render to work differently in a mini-game.</li>
