@@ -12,132 +12,9 @@
 
 	</script>
 
-	<style>
-  body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #08458A; /*#08458A*/
-    color: #ABD4FF; /*#ABD4FF*/
-
-		text-align:center;
-		margin:auto;
-	}
-
-	a {
-		text-decoration: none;
-	}
-
-  .header {
-    display: block;
-    font-size: 175%;
-    width: 100%;
-    margin-bottom: 10px;
-    background-color: #0B5DB9; /*#0B5DB9*/
-    box-shadow: 0px 0px 4px #000000;
-
-    text-shadow: 0px 0px 3px #000000;
-  }
-
-  h1 {
-    margin:auto;
-  }
-
-  .projectCard {
-    overflow: hidden;
-    position: relative;
-
-    margin: 14px;
-
-    width: 350px;
-    height: 280px;
-    background-color: #06569E; /*#06569E*/
-    display: inline-block;
-
-    box-shadow: 1px 1px 10px -2px #000000;
-    border-radius: 10px;
-  }
-
-  .projectCardHeader {
-    box-shadow: 1px 1px 8px -2px #000000;
-    height: 42px;
-    text-align: left;
-    padding: 8px;
-  }
-
-  .projH1 {
-    font-size: 26px;
-    line-height: 20px;
-  }
-
-  .projH2 {
-    font-size: 15px;
-    line-height:6px;
-  }
-
-  .projImg {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 5px;
-
-    width: 48px;
-    height: 48px;
-  }
-
-  .projectCardBody {
-    height: 60%;
-    overflow: auto;
-
-    font-size: 16px;
-
-    padding-left: 3px;
-    padding-right: 3px;
-  }
-
-  .projectCardButton {
-    display: block;
-    background-color: #11af0c; /*#11af0c*/
-
-    bottom:0;
-    position: absolute;
-
-    color: white;
-    box-shadow: inset 0px 0px 18px -4px #000000;
-
-    border-top: 1px solid black;
-
-    font-size: 24px;
-    line-height: 30px;
-
-    padding: 4px;
-    vertical-align: middle;
-
-    width: 50%;
-    height: 30px;
-  }
-
-  .projectCardButton:hover {
-    box-shadow: inset 0px 0px 12px 0px #000000;
-  }
-
-  .projectCardButton:active {
-    background-color: #FFFFFF !important;
-  }
-
-  .material-icons, .icon-text {
-  vertical-align: middle;
-}
-
-a {
-  color: #FFFFFF;
-}
-
-a:visited {
-  color: #FFFFFF;
-}
-  </style>
-
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
 
   <meta charset="UTF-8">
   <meta name="author" content="Lake Y">
@@ -150,55 +27,71 @@ a:visited {
   <div class="projectCard">
     <div class="projectCardHeader">
       <h1 class="projH1">7DTD Discord Integration</h1>
-      <h2 class="projH2">May 30, 2017</h2>
+      <h2 class="projDateStamp">May 30, 2017</h2>
       <!-- <img class="projImg" src="p_r.png"> -->
     </div>
     <div class="projectCardBody">
-      <p class="projParagraph">A NodeJS script that integrates the game '7 Days to Die' with Discord, an online chat app.</p>
-      <p class="projParagraph">This gives users a way to communicate with in-game players through Discord.</p>
+      <p class="projPar">A NodeJS script that integrates the game '7 Days to Die' with Discord, an online chat app.</p>
+      <p class="projPar">This gives users a way to communicate with in-game players from any device or location.</p>
     </div>
-    <a class="projectCardButton" target='_blank' style="width:100%; left:0; background-color:#1269e2;" href="http://lakeys.net/discord7dtd"><i class="material-icons">code</i> Source/How to Install</a>
+    <div class="projectCardFooter">
+      <a class="projectCardButton" target='_blank' style="background-color:#1269e2;" href="http://lakeys.net/discord7dtd"><i class="material-icons">code</i> Source/How to Install</a>
+    </div>
   </div>
 
   <div class="projectCard">
     <div class="projectCardHeader">
       <h1 class="projH1">Support_Render</h1>
-      <h2 class="projH2">February 24, 2017</h2>
+      <h2 class="projDateStamp">February 24, 2017</h2>
       <img class="projImg" src="p_r.png">
     </div>
+
     <div class="projectCardBody">
-      <p class="projParagraph">A survival horror modification for Blockland. It introduces Render, a mysterious entity that haunts the game. </p>
-      <p class="projParagraph">This project introduces unique AI as well as original sound effects and community-created models.</p>
+      <p class="projPar">A survival horror modification for Blockland. It introduces Render, a mysterious entity that haunts the game. </p>
+      <p class="projPar">This project introduces unique AI as well as original sound effects and community-created models.</p>
     </div>
-    <a class="projectCardButton" target='_blank' style="width:40%; left:0; background-color:#1269e2;" href="https://github.com/LakeYS/blockland-render"><i class="material-icons">code</i> Source</a>
-    <a class="projectCardButton"  style="width:55.4%; right:0;" href="https://github.com/LakeYS/LakeYS.github.io/blob/master/render/latest/Support_Render.zip?raw=true"><i class="material-icons">file_download</i> Download</a>
+
+    <div class="projectCardFooter">
+      <a class="projectCardButton" target='_blank' style="background-color:#1269e2;" href="https://github.com/LakeYS/blockland-render"><i class="material-icons">code</i> Source</a>
+      <a class="projectCardButton" href="https://github.com/LakeYS/LakeYS.github.io/blob/master/render/latest/Support_Render.zip?raw=true"><i class="material-icons">file_download</i> Download</a>
+    </div>
   </div>
 
   <div class="projectCard">
     <div class="projectCardHeader">
       <h1 class="projH1">Conundrum Gaming</h1>
-      <h2 class="projH2">August 23, 2016</h2>
+      <h2 class="projDateStamp">August 23, 2016</h2>
       <img class="projImg" style="border-radius: 100%;" src="p_cg.jpg">
     </div>
+
     <div class="projectCardBody">
-      <p class="projParagraph">As seen on <a href="https://www.youtube.com/channel/UCHZZo1h1cI1vg4I9g2RqOUQ" target="_blank">Red Arcade.</a> A YouTube channel about gaming! Featuring cforsyth0, Knight Zeras, Lake, PunisherLex, Sparky Power, Zanearoony, ZeUnknown, and Zyllos007.</p>
-      <p class="projParagraph">Editing and channel artwork by Lake (except where otherwise indicated).</p>
+      <p class="projPar">A YouTube channel about gaming! Featuring cforsyth0, Knight Zeras, Lake, PunisherLex, Sparky Power, Zanearoony, ZeUnknown, and Zyllos007.</p>
+      <p class="projPar">Editing and channel artwork by Lake (except where otherwise indicated).</p>
+      <p class="projPar">As seen on <a href="https://www.youtube.com/channel/UCHZZo1h1cI1vg4I9g2RqOUQ" target="_blank">Red Arcade</a>.</p>
+
     </div>
-    <a class="projectCardButton" target='_blank' style="width:97.8%; left:0; background-color: #b72616;" href="https://www.youtube.com/channel/UCIt0N6RuBRKbkRhUujy5u9A"><i class="material-icons">play_arrow</i> Watch on YouTube</a>
+
+    <div class="projectCardFooter">
+      <a class="projectCardButton" target='_blank' style="background-color: #CD2A18;" href="https://www.youtube.com/channel/UCIt0N6RuBRKbkRhUujy5u9A"><i class="material-icons">play_arrow</i> Watch on YouTube</a>
+    </div>
   </div>
 
   <div class="projectCard">
     <div class="projectCardHeader">
       <h1 class="projH1">Flappy Bird in Blockland</h1>
-      <h2 class="projH2">August 16, 2015</h2>
+      <h2 class="projDateStamp">August 16, 2015</h2>
     </div>
+
     <div class="projectCardBody">
-      <p class="projParagraph">A recreation of the popular mobile game 'Flappy Bird' as a game-mode for Blockland.</p>
-      <p class="projParagraph">Includes a dynamic leaderboard, a scoring system, and infinite looping pipes.</p>
+      <p class="projPar">A recreation of the popular mobile game 'Flappy Bird' as a game-mode for Blockland.</p>
+      <p class="projPar">Includes a dynamic leaderboard, a scoring system, and infinite looping pipes.</p>
     </div>
-    <a class="projectCardButton" target='_blank' style="width:12%; left:0; background-color:#b72616;" href="https://www.youtube.com/watch?v=uRN587hi4w4"><i class="material-icons" style="padding-right: 4px;">play_arrow</i></a>
-    <a class="projectCardButton" target='_blank' style="width:37%; left:46px; background-color:#1269e2;" href="https://github.com/LakeYS/blockland-flappy-bird"><i class="material-icons">code</i> Source</a>
-    <a class="projectCardButton" style="width:45.3%; right:0;" href="https://github.com/LakeYS/LakeYS.github.io/blob/master/flappybird/latest/GameMode_Flappy_Bird.zip?raw=true"><i class="material-icons">file_download</i> Download</a>  </div>
+
+    <div class="projectCardFooter">
+      <a class="projectCardButton" target='_blank' style="background-color:#CD2A18;" href="https://www.youtube.com/watch?v=uRN587hi4w4"><i class="material-icons" style="padding-right: 4px;">play_arrow</i></a>
+      <a class="projectCardButton" target='_blank' style="background-color:#1269e2;" href="https://github.com/LakeYS/blockland-flappy-bird"><i class="material-icons">code</i> Source</a>
+      <a class="projectCardButton" href="https://github.com/LakeYS/LakeYS.github.io/blob/master/flappybird/latest/GameMode_Flappy_Bird.zip?raw=true"><i class="material-icons">file_download</i> Download</a></div>
+    </div>
   </div>
 
 </body>

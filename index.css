@@ -1,0 +1,142 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #08458A; /*#08458A*/
+  color: #ABD4FF; /*#ABD4FF*/
+
+  text-align:center;
+  margin:auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  font-family: 'Source Sans Pro', sans-serif;
+
+  display: block;
+  font-size: 175%;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #0B5DB9; /*#0B5DB9*/
+  box-shadow: 0px 0px 4px #000000;
+
+  text-shadow: 0px 0px 3px #000000;
+}
+
+h1 {
+  margin:auto;
+}
+
+.projectCard {
+  overflow: hidden;
+  position: relative;
+
+  margin: 12px;
+
+  width: 360px;
+  height: 290px;
+  background-color: #06569E; /*#06569E*/
+  display: inline-flex;
+  flex-direction: column;
+
+  box-shadow: 1px 1px 10px -2px #000000;
+  border-radius: 10px;
+}
+
+.projectCardHeader {
+  box-shadow: 1px 1px 6px -2px #000000;
+  max-height: 42px;
+  text-align: left;
+  padding: 8px;
+}
+
+.projH1 {
+  font-size: 26px;
+  line-height: 20px;
+}
+
+.projDateStamp {
+  font-size: 14px;
+  line-height:6px;
+  /* display: none; */
+}
+
+.projImg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+
+  width: 48px;
+  height: 48px;
+
+  /*width: 24px;
+  height: 24px; */
+}
+
+.projectCardBody {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+  line-height: normal;
+
+  align-content: flex-start;
+
+  overflow: hidden;
+
+  font-size: 14px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.projPar {
+  flex: auto;
+}
+
+.projectCardFooter {
+  display: flex;
+  flex-direction: row;
+
+  box-shadow: 0px 0px 6px -1px #000000;
+}
+
+.projectCardButton {
+  display: flex;
+  background-color: #11af0c;
+
+  flex-grow: 1;
+
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  box-shadow: inset 0px 0px 18px -4px #000000;
+
+  font-size: 24px;
+  line-height: 30px;
+
+  padding: 4px;
+
+  height: 28px;
+}
+
+.projectCardButton:hover {
+  box-shadow: inset 0px 0px 10px 0px #000000;
+}
+
+.projectCardButton:active {
+  filter: brightness(150%);
+}
+
+.material-icons, .icon-text {
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
