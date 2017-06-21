@@ -32,10 +32,10 @@ h1 {
   overflow: hidden;
   position: relative;
 
-  margin: 12px;
+  margin: 8px;
 
-  width: 360px;
-  height: 290px;
+  width: 380px;
+  height: 310px;
   background-color: #06569E; /*#06569E*/
   display: inline-flex;
   flex-direction: column;
@@ -127,7 +127,7 @@ h1 {
 }
 
 .projectCardButton:active {
-  filter: brightness(150%);
+  filter: brightness(125%);
 }
 
 .material-icons, .icon-text {
