@@ -140,3 +140,76 @@ a {
 a:visited {
   color: #FFFFFF;
 }
+
+#profileContainer {
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.profile {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  color: #ABD4FF;
+
+  margin: 2px;
+
+  font-size: 17px;
+
+  border-radius: 6px;
+  background-color: #06569E;
+  box-shadow: inset 0px 0px 4px -1px #000000, 0px 0px 2px 0px #000000;
+}
+
+.profile:hover {
+  box-shadow: inset 0px 0px 8px -1px #000000, 0px 0px 2px 0px #000000;
+}
+
+.profile:visited {
+  color: #ABD4FF;
+}
+
+.profile:active {
+  filter: brightness(125%);
+}
+
+.profileImg {
+  height: 17px;
+
+  margin-right: 4px;
+}
+
+.profileName {
+  display: none;
+}
+
+.profileName:before {
+  content: ": ";
+}
+
+@media print {
+  .projectCardButton {
+    display: none;
+  }
+
+  .projectCard {
+    height: auto;
+  }
+
+  .profileName {
+    display: inline;
+  }
+
+  .profile.noName {
+    display: none;
+  }
+
+  .projectCard {
+    margin: 4px;
+}
