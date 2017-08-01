@@ -1,12 +1,39 @@
-html {
-  margin: 15px;
-}
-
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #404040;
   color: #FFFFFF;
+  margin: 0px;
+}
 
+#headerBg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+
+  background-image: url("bg.jpg");
+  background-color: black;
+  width: 100%;
+  min-height: 16vh;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  text-shadow: 0px 0px 6px #000000;
+
+  margin-bottom: 24px;
+
+  box-shadow: 0px 0px 6px #000000;
+}
+
+.headerText {
+  padding-top: 16px; /* Workaround for text not centering properly */
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#content {
   text-align:center;
   margin:auto;
   max-width:75%;
