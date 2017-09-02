@@ -34,8 +34,8 @@ h1 {
 
   margin: 8px;
 
-  width: 380px;
-  height: 310px;
+  width: 400px;
+  height: 320px;
   background-color: #06569E; /*#06569E*/
   display: inline-flex;
   flex-direction: column;
@@ -87,8 +87,8 @@ h1 {
   overflow: hidden;
 
   font-size: 14px;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .projPar {
