@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: row;
 
+  align-items: center;
 
   border-radius: 25px;
   align-self: center;
@@ -47,7 +48,8 @@ body {
 
 #img {
   align-self: center;
-  max-width: 47%;
+  max-width: 28%;
+  min-width: 200px;
 }
 
 a {
