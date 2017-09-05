@@ -29,19 +29,25 @@ body {
 }
 
 #center {
+  display: flex;
+  flex-direction: row;
+
+
   border-radius: 25px;
   align-self: center;
   background-color: #2B78C3;
   text-align: center;
   padding: 2%;
 
-  max-width: 75%;
+  max-width: 90%;
+  max-height: 100%;
 
   box-shadow: 0px 2px 3px #202020;
 }
 
 #img {
-  max-width: 46%;
+  align-self: center;
+  max-width: 47%;
 }
 
 a {
@@ -65,10 +71,14 @@ footer {
   margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
   .header {
     /* background-color: transparent;
     box-shadow: 0 0 0; */
     font-size: 24pt;
+  }
+
+  #center {
+    flex-direction: column;
   }
 }
