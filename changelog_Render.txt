@@ -7,6 +7,7 @@
 		<li>Partial compatibility with v20</li>
 		<li>Tons of minor tweaks and bugfixes</li>
 	</ul>
+	<br>
 	<b>Additions</b>
 	<ul>
 		<li>Added new effects for Render damage and deaths.</li>
