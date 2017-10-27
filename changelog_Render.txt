@@ -1,3 +1,41 @@
+<version:2.0>
+	<b>Summary</b>
+	<ul>
+		<li>Visual effects have been overhauled</li>
+		<li>New and improved sound effects</li>
+		<li>(Experimental) You can now play as Render. Controllable Render spawns can be enabled in preferences.</li>
+		<li>Partial compatibility with v20</li>
+		<li>Tons of minor tweaks and bugfixes</li>
+	</ul>
+	<b>Additions</b>
+	<ul>
+		<li>Added new effects for Render damage and deaths.</li>
+		<li>Render now affects lights and bricks.</li>
+		<li>Updated the sound effects.</li>
+		<li>(EXPERIMENTAL) Players can now play as Renderman. This can be enabled in the server preferences or in Slayer mini-game options.</li>
+		<li>Render's kills now have their own icon.</li>
+		<li>Render now has damage particles when shot or attacked.</li>
+		<li>Players are now notified when placing a shrine while they are disabled.</li>
+		<li>Renamed Health Mode to Damage Mode.</li>
+	</ul>
+	<br>
+	<b>Fixes</b>
+	<ul>
+		<li>The add-on now partially supports version 20 of Blockland.</li>
+		<li>Fixed an exploit that would allow players to become invincible to Render.</li>
+		<li>Fixed Render being able to freeze players through walls.</li>
+		<li>Fixed numerous bugs with preferences, including broken defaults.</li>
+		<li>Render can no-longer use jets due to AI complications.</li>
+		<li>Fixed 'ghost lights' and map turning extremely dark/bright when Render spawns.</li>
+		<li>Fixed extra 'Standard Player' datablocks created by the mod.</li>
+		<li>Fixed players unfreezing when admins type /clearBots.</li>
+		<li>Fixed console errors when Slayer is not installed.</li>
+		<li>Fixed mount sound playing when Render captures players.</li>
+		<li>Fixed AI not properly detecting haunt mode.</li>
+		<li>Fixed Slayer preferences not working in game-modes.</li>
+		<li>Fixed Slayer minigames never spawning Render when the global spawnrate is set to 'disabled'.</li>
+	</ul>
+</version>
 <version:1.4>
 	<ul>
 		<li>Added minigame events: setRenderSpawnrate, setRenderInvincibility, setRenderMode</li>
