@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  background-color: #0469CB;
+  background-color: #287CCE;
 
   overflow: hidden;
 
@@ -55,7 +55,7 @@ h1 {
 }
 
 #imgContainer {
-  background-color: #0365C4;
+  background-color: #0B6BC8;
   display: flex;
   flex-direction: row;
   justify-content: center;
