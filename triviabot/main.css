@@ -1,7 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
-
   font-size: 17px;
 
   font-family: 'Source Sans Pro', sans-serif;
@@ -11,11 +8,15 @@ body {
   margin: 0;
 }
 
+::selection {
+  background: #000055;
+}
+
 #block {
   display: flex;
   flex-direction: column;
 
-  background-color: #287CCE;
+  background-color: #287CCE; /* 287CCE */
 
   overflow: hidden;
 
@@ -27,48 +28,118 @@ body {
 }
 
 #blockContent {
-  padding-left: 12%;
-  padding-right: 12%;
+  width: 84%;
 }
 
 #blockHeader {
-  font-family: 'Oxygen', sans-serif;
-  text-align: center;
+  display: inline-flex;
+  text-align: left;
 
-  background-color: #000000; /*3D91E2*/
-  box-shadow: 0px 0px 6px #202020;
+
+  background-color: #106DC7;
+  box-shadow: 0px 0px 2px #202020;
 
   width: 100%;
+  height: 40px;
 
-  font-size: 40px;
+  font-size: 16px;
 
   padding: 16px;
   padding-top: 8px;
 
+  margin: 0;
+}
+
+#blockHeaderLogo {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+
+  display: inline-flex;
+  align-items: center;
+
+  border-radius: 18px;
+
+  height: 32px;
+
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-top: -2px;
+}
+
+#blockHeaderLogo:hover {
+  background-color: #3383D1;
+}
+
+#blockHeaderLogoImg {
+  width: 45px;
+  height: 45px;
+
+  margin-left: -8px;
+  padding-right: 5px;
+}
+
+.blockHeaderOption {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  max-width: 175px;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 64px;
+  margin-top: -8px;
+
+  border-bottom: 1px solid #303030;
+  box-sizing: content-box;
+}
+
+.blockHeaderOption:hover {
+  background-color: #3383D1;
+}
+
+#inviteButton {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: 12px;
+  background-color: #0C80C5;
+  width: 75px;
+}
+
+#inviteButton:hover {
+  background-color: #4494C3;
 }
 
 h1 {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
   font-size: 24px;
 
-  margin-top: 30px;
 }
 
 #imgContainer {
-  background-color: #0B6BC8;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
 
   width: 100%;
   margin-top: 0;
-
 }
 
 #img {
   align-self: center;
   max-width: 18%;
   min-width: 100px;
+
+  animation: imgintro 1s;
 }
 
 a {
@@ -82,15 +153,38 @@ a:hover {
 
 #links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+
+  font-size: 30px;
 
   justify-content: center;
+
+  animation: linkintro 1s;
 }
 
 .link {
-  font-size: 30px;
   margin: 0px;
   vertical-align: middle;
+}
+
+#mainLink {
+  display: block;
+  font-size: 36px;
+  animation: linkintro 1s;
+}
+
+#downloadLink {
+  font-size: 26px;
+}
+
+.tocsub {
+  padding-left: 0.6em;
+}
+
+em {
+  background-color: #40404030;
+  border-bottom: 1px solid #FFFFFF50;
+  font-style: normal;
 }
 
 footer {
@@ -102,10 +196,50 @@ footer {
 
 @media only screen and (max-width: 400px) {
   #blockHeader {
-    font-size: 28px;
+    font-size: 12px;
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .blockHeaderOption {
+    margin-top: 4px;
+    max-width: 100%;
+    width: 100% !important;
+  }
+
+  #blockHeaderLogo {
+    font-size: 12px;
+  }
+
+  #inviteButton {
+    margin-left: 0;
   }
 
   .link {
-    font-size: 16px;
+    font-size: 24px !important;
   }
+}
+
+@keyframes imgintro {
+	from {
+    opacity: 0;
+    transform: scale(0.5,0.5) rotate(180deg);
+	}
+
+	to {
+    opacity: 1;
+    transform: scale(1,1) rotate(0deg);
+	}
+}
+
+@keyframes linkintro {
+	from {
+    opacity: 0;
+    transform: translate(0px, 15px)
+	}
+
+	to {
+    opacity: 1;
+    transform: translate(0px, 0px)
+	}
 }

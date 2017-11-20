@@ -14,7 +14,7 @@
 
     <link href="main.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
     <link rel="icon" type="image/png" href="profile_t.png">
 
@@ -26,15 +26,18 @@
 
   <body>
     <div id="block">
-
-      <h1 id="blockHeader">An open-source trivia bot for Discord, powered by OpenTDB</h1>
+      <h1 id="blockHeader">
+        <a id="blockHeaderLogo" href="http://lakeys.net/triviabot"><img id="blockHeaderLogoImg" src="profile_t.png"> TriviaBot</a>
+        <a class="blockHeaderOption" href="./install.html">Manual Install Guide</a>
+        <a id="inviteButton" class="blockHeaderOption" href="https://discordapp.com/oauth2/authorize?client_id=337654994461261825&scope=bot" target="_none"><span style="font-size: 34px; margin-right: 6px;">+</span> Invite</a>
+      </h1>
       <div id="imgContainer">
         <img id="img" src="profile_t.png">
+        <div class="link" id="mainLink"><a href=https://discordapp.com/oauth2/authorize?client_id=337654994461261825&scope=bot target="_none">Invite to a Discord server</a></div>
+        <br>
         <div id="links">
-          <p class="link"><a href=https://discordapp.com/oauth2/authorize?client_id=337654994461261825&scope=bot>Invite to a Discord server</a></p>
-          <br>
-          <p class="link"><a href="https://discord.gg/s3vCQba">Join the official Discord</a></p>
-          <br>
+          <div class="link"><a href="https://discord.gg/s3vCQba" target="_none">Join the official Discord</a></div>
+          &nbsp;•&nbsp;
           <p class="link"><a href="https://github.com/LakeYS/Discord-Trivia-Bot">View the source code</a></p>
         </div>
       </div>

@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="en-US">
+  <head>
+    <title>How to Manually Host TriviaBot</title>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-92656775-1', 'auto');
+    ga('send', 'pageview');
+
+  	</script>
+
+    <link href="main.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="profile_t.png">
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Lake Y">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div id="block">
+      <h1 id="blockHeader">
+        <a id="blockHeaderLogo" href="http://lakeys.net/triviabot"><img id="blockHeaderLogoImg" src="profile_t.png"> TriviaBot</a>
+        <a class="blockHeaderOption" href="./install.html">Manual Install Guide</a>
+        <a id="inviteButton" class="blockHeaderOption" href="https://discordapp.com/oauth2/authorize?client_id=337654994461261825&scope=bot" target="_none"><span style="font-size: 34px; margin-right: 6px;">+</span> Invite</a>
+      </h1>
+
+      <div id="blockContent">
+          <p>TriviaBot is open-source and can be downloaded for free. This guide shows you how to install TriviaBot on a Windows, Linux, or Android system.</p>
+
+          <a id="downloadLink" href="https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.0.0/TriviaBot.zip">Download TriviaBot</a>
+
+          <h1>Table of Contents</h1>
+          <a href="#windows">1. How to Install - Windows</a><br>
+          <a class="tocsub" href="#windowsAcc">1.1: Creating the bot account</a><br>
+          <a class="tocsub" href="#windowsSetup">1.2: Setting up the bot</a><br>
+          <a class="tocsub" href="#windowsRun">1.3: Run the bot!</a><br>
+          <a href="#linux">2. How to Install - Linux<br>
+          <a class="tocsub" href="#linuxAndroid">2.1: Android Devices</a><br>
+          <a class="tocsub" href="#linuxAcc">2.2: Creating the bot account</a><br>
+          <a class="tocsub" href="#linuxSetup">2.3: Setting up the bot</a><br>
+          <a class="tocsub" href="#linuxRun">2.4: Run the bot!</a><br>
+
+
+          <h1 id="windows">How to Install - Windows</h1>
+          <h2 id="windowsAcc">Creating the bot account</h2>
+          <ol>
+            <li>Log in to the <a href="https://discordapp.com/developers/applications/me" target="_none">Discord developers section</a> and click "New App".</li>
+            <li>Name the bot anything you'd like and click "Create App".</li>
+            <li>Click "Create a Bot User".</li>
+            <li>Next to "Token:" click the link that says "click to reveal". This is the password for your bot's account. You'll need this and the "Client ID" number later. Copy them both somewhere safe or keep the tab open.</li>
+            <li>Paste the URL listed below into your browser and replace "CLIENT_ID" with your client ID number. Hit enter and select the desired Discord server. Once this is done, the bot will show up in your server!</li>
+          </ol>
+          https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot
+
+          <h2 id="windowsSetup">Setting up the bot</h2>
+          <ol>
+            <li><a href="https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.0.0/TriviaBot.zip">Download</a> the TriviaBot program and extract it somewhere on your system.</li>
+            <li>Install Node.js LTS from <a href="https://nodejs.org/en/download/">this website</a>.</li>
+            <li>Once Node.js is finished installing, run install.bat in the bot's folder. This will automatically install the required modules for the bot.</li>
+            <li>Right click the bot's config.json file and click "Edit".</li>
+            <li>Find "your_token_here" and replace it with the Discord token from earlier.</li>
+          </ol>
+
+          <h2 id="windowsRun">Run the bot!</h2>
+          <p>Once you complete all of this, you will be able to run the bot by opening run.bat. If you've done all of this correctly, you will see the following in the terminal:
+          <em>TriviaBot connected to 1 Discord Server.</em></p>
+
+          <p>Note that if you close this terminal the bot will be disconnected. In Windows, the bot can be run in the background with no terminal by opening run_silent.vbs.</p>
+
+          <p>You may want to create a shortcut to run.bat or run_silent.vbs in your Startup folder:</p>
+
+          <p><em>C:\Users\[YOURNAME]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</em></p>
+
+          <h1 id="linux">How to Install - Linux</h1>
+          <h2 id="linuxAndroid">Android Devices</h2>
+          <p>The bot can be installed on Android devices using the <a href="https://play.google.com/store/apps/details?id=com.termux&hl=en">Termux</a> app. Once installed, enter <em>apt update</em> and <em>apt install nodejs curl</em>. Then, proceed with the installation as a Linux system. Note that you may need access to a desktop computer in order to create the bot account.</p>
+
+          <h2 id="linuxAcc">Creating the bot account</h2>
+          <ol>
+            <li>Log in to the <a href="https://discordapp.com/developers/applications/me">Discord developers section</a> in a browser and click "New App".</li>
+            <li>Name the bot anything you'd like and click "Create App".</li>
+            <li>Click "Create a Bot User".</li>
+            <li>Next to "Token:" click the link that says "click to reveal". This is the password for your bot's account. You'll need this and the "Client ID" number later. Copy them both somewhere safe or keep the tab open for later.</li>
+            <li>Paste the URL listed below into your browser and replace "CLIENT_ID" with your client ID number. Hit enter and select the desired Discord server. Once this is done, the bot will show up in your server!</li>
+          </ol>
+
+          <em>https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot</em>
+
+          <h2 id="linuxSetup">Setting up the bot</h2>
+          <ol>
+            <li>Open a terminal on your system.</li>
+            <li><b>(Skip this step if installing to an Android device.)</b> Install Node.js and NPM. Install build tools if instructed. <a href="https://nodejs.org/en/download/package-manager/">How to install via package manager</a>.</li>
+            <li>Type <em>curl -L https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.0.0/triviabot.tar.gz > triviabot.tar.gz</em> to download the bot's files to an archive named <em>triviabot.tar.gz</em>.</li>
+            <li>Type <em>tar -xzf triviabot.tar.gz</em> to extract the archive. This will create a directory named "TriviaBot". Navigate to the directory with <em>cd TriviaBot</em>.</li>
+            <li>Type <em>sudo chmod +x run.sh</em>. This gives you permission to execute run.sh. (If this does not work, try <em>chmod +x run.sh</em>)</li>
+            <li>Type <em>npm install</em> to install the required packages for the bot to run.</li>
+            <li>Open config.json in a text editor.</li>
+            <li>Replace "your_token_here" with the Discord bot token from earlier.</li>
+          </ol>
+
+          <h2 id="linuxRun">Run the bot!</h2>
+          <p>Once you complete all of this, you will be able to run the bot by executing run.sh (Navigate to the bot's directory and enter ./run.sh). If you've done all of this correctly, you will see the following:
+          <em>TriviaBot connected to 1 Discord Server.</em></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>Site by Lake Y (<a href=http://lakeys.net target=_none>LakeYS.net</a>).<br>See also: <a href=http://lakeys.net/discord7dtd target=_none>Discord Integration for 7 Days to Die.</a></footer>
+  </body>
+</html>
