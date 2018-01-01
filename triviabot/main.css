@@ -138,13 +138,13 @@ h2 {
   align-self: center;
   max-width: 18%;
   min-width: 100px;
+  min-height: 100px;
 
   animation: imgintro 1s;
 }
 
 a {
   color: #FFFFFF;
-  text-decoration: underline;
 }
 
 a:hover {
@@ -167,8 +167,29 @@ a:hover {
   vertical-align: middle;
 }
 
-#mainLink {
+.linkBtn {
   display: block;
+  text-decoration: none;
+  background-color: #106DC7;
+  border-bottom: 2px solid #303030;
+
+  margin: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px;
+}
+
+.linkBtn:hover {
+  background-color: #3383D1;
+}
+
+.linkBtn:active {
+  border-bottom: 0px;
+  border-top: 2px solid #287CCE;
+}
+
+#mainLink {
+  display: flex;
   font-size: 36px;
   animation: linkintro 1s;
 }
@@ -194,7 +215,7 @@ footer {
   margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
   #blockHeader {
     font-size: 12px;
     flex-direction: column;
@@ -208,15 +229,21 @@ footer {
   }
 
   #blockHeaderLogo {
-    font-size: 12px;
+    margin-left: 24px !important;
+    align-self: center;
   }
 
   #inviteButton {
     margin-left: 0;
+    margin-bottom: -20px;
   }
 
   .link {
     font-size: 24px !important;
+  }
+
+  #links {
+    flex-direction: column;
   }
 }
 
