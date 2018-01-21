@@ -29,6 +29,7 @@ body {
 
 #blockContent {
   width: 84%;
+  min-height: 400px;
 }
 
 #blockHeader {
