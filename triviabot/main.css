@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  background-color: #287CCE; /* 287CCE */
+  background-color: #287CCE;
 
   overflow: hidden;
 
@@ -30,6 +30,7 @@ body {
 #blockContent {
   width: 84%;
   min-height: 400px;
+  padding-top: 70px;
 }
 
 #blockHeader {
@@ -38,7 +39,7 @@ body {
 
 
   background-color: #106DC7;
-  box-shadow: 0px 0px 2px #202020;
+  box-shadow: 0px 0px 4px #202020;
 
   width: 100%;
   height: 40px;
@@ -47,6 +48,10 @@ body {
 
   padding: 16px;
   padding-top: 8px;
+
+  position: fixed;
+  top: 0;
+  z-index: 100;
 
   margin: 0;
 }
@@ -94,7 +99,6 @@ body {
   height: 64px;
   margin-top: -8px;
 
-  border-bottom: 1px solid #303030;
   box-sizing: content-box;
 }
 
@@ -106,7 +110,7 @@ body {
   display: inline-flex;
   margin-left: auto;
   margin-right: 12px;
-  background-color: #0C80C5;
+  background-color: #3383D1;
   width: 75px;
 }
 
@@ -132,7 +136,7 @@ h2 {
   text-align: center;
 
   width: 100%;
-  margin-top: 0;
+  margin-top: 60px;
 }
 
 #img {
@@ -172,12 +176,12 @@ a:hover {
   display: block;
   text-decoration: none;
   background-color: #106DC7;
-  border-bottom: 2px solid #303030;
+  box-shadow: 0px 1px 2px #202020;
 
   margin: auto;
   padding-left: 8px;
   padding-right: 8px;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .linkBtn:hover {
@@ -187,6 +191,7 @@ a:hover {
 .linkBtn:active {
   border-bottom: 0px;
   border-top: 2px solid #287CCE;
+  box-shadow: 0px 0px 0px #202020;
 }
 
 #mainLink {
