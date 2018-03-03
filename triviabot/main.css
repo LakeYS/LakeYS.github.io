@@ -126,7 +126,8 @@ h1 {
 h2 {
   font-family: 'Varela Round', sans-serif;
   font-size: 24px;
-
+  margin-bottom: 36px;
+  margin-top: 36px;
 }
 
 #imgContainer {
@@ -202,6 +203,11 @@ a:hover {
 
 #downloadLink {
   font-size: 26px;
+  margin-bottom: 10px;
+}
+
+#imgPreview1 {
+  margin-top: 8px;
 }
 
 .tocsub {
