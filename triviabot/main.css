@@ -30,7 +30,6 @@ body {
 #blockContent {
   width: 84%;
   min-height: 400px;
-  padding-top: 70px;
 }
 
 #blockHeader {
@@ -49,9 +48,6 @@ body {
   padding: 16px;
   padding-top: 8px;
 
-  position: fixed;
-  top: 0;
-  z-index: 100;
 
   margin: 0;
 }
@@ -126,8 +122,7 @@ h1 {
 h2 {
   font-family: 'Varela Round', sans-serif;
   font-size: 24px;
-  margin-bottom: 36px;
-  margin-top: 36px;
+
 }
 
 #imgContainer {
@@ -137,7 +132,7 @@ h2 {
   text-align: center;
 
   width: 100%;
-  margin-top: 60px;
+  margin-top: 0;
 }
 
 #img {
