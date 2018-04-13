@@ -1,3 +1,9 @@
+<version:2.0.1>
+	<ul>
+		<li>Fixed detector bricks not clearing properly and breaking.</li>
+		<li>Fixed console errors in v20 caused by nonexistent functions.</li>
+	</ul>
+</version>
 <version:2.0>
 	<b>Summary</b>
 	<ul>
