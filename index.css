@@ -19,9 +19,9 @@ a {
   width: 100%;
   margin-bottom: 10px;
   background-color: #0B5DB9; /*#0B5DB9*/
-  box-shadow: 0px 0px 4px #000000;
+  box-shadow: 0 0 4px #000000;
 
-  text-shadow: 0px 0px 3px #000000;
+  text-shadow: 0 0 3px #000000;
 }
 
 h1 {
@@ -99,7 +99,7 @@ h1 {
   display: flex;
   flex-direction: row;
 
-  box-shadow: 0px 0px 6px -1px #000000;
+  box-shadow: 0 0 6px -1px #000000;
 }
 
 .projectCardButton {
@@ -112,7 +112,7 @@ h1 {
   justify-content: center;
 
   color: white;
-  box-shadow: inset 0px 0px 18px -4px #000000;
+  box-shadow: inset 0 0 18px -4px #000000;
 
   font-size: 24px;
   line-height: 30px;
@@ -123,14 +123,11 @@ h1 {
 }
 
 .projectCardButton:hover {
-  box-shadow: inset 0px 0px 10px 0px #000000;
+  box-shadow: inset 0 0 10px 0 #000000;
 }
 
 .projectCardButton:active {
   filter: brightness(125%);
-}
-
-.material-icons, .icon-text {
 }
 
 a {
@@ -164,11 +161,11 @@ a:visited {
 
   border-radius: 6px;
   background-color: #06569E;
-  box-shadow: inset 0px 0px 4px -1px #000000, 0px 0px 2px 0px #000000;
+  box-shadow: inset 0 0 4px -1px #000000, 0 0 2px 0 #000000;
 }
 
 .profile:hover {
-  box-shadow: inset 0px 0px 8px -1px #000000, 0px 0px 2px 0px #000000;
+  box-shadow: inset 0 0 8px -1px #000000, 0 0 2px 0 #000000;
 }
 
 .profile:visited {
@@ -212,4 +209,5 @@ a:visited {
 
   .projectCard {
     margin: 4px;
+  }
 }
