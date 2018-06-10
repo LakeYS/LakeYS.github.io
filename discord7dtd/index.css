@@ -61,7 +61,7 @@ body {
   display: flex;
   flex-direction: row;
   margin:auto;
-  max-width:80%;
+  max-width:75%;
 }
 
 a {
