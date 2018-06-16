@@ -48,7 +48,6 @@ body {
   padding: 16px;
   padding-top: 8px;
 
-
   margin: 0;
 }
 
@@ -90,8 +89,8 @@ body {
   text-decoration: none;
 
   max-width: 175px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
   height: 64px;
   margin-top: -8px;
 

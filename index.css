@@ -164,6 +164,10 @@ a:visited {
   box-shadow: inset 0 0 4px -1px #000000, 0 0 2px 0 #000000;
 }
 
+#profilePatreon {
+  margin-top: 5px;
+}
+
 .profile:hover {
   box-shadow: inset 0 0 8px -1px #000000, 0 0 2px 0 #000000;
 }
