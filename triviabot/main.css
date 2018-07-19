@@ -8,6 +8,21 @@ body {
   margin: 0;
 }
 
+.bodyDoubleColumns {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+}
+
+.bodyColumn {
+  padding: 12px;
+}
+
+.bodyColumnHeader {
+  margin: 0;
+}
+
 ::selection {
   background: #000055;
 }
@@ -81,6 +96,17 @@ body {
   padding-right: 5px;
 }
 
+.dbImg {
+  display: flex;
+  margin: auto;
+  max-width: 256px;
+}
+
+.dbBtn {
+   align-content: flex-end;
+   text-align: center;
+}
+
 .blockHeaderOption {
   display: inline-flex;
 
@@ -121,7 +147,6 @@ h1 {
 h2 {
   font-family: 'Varela Round', sans-serif;
   font-size: 24px;
-
 }
 
 #imgContainer {
@@ -223,7 +248,7 @@ footer {
   margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 650px) {
   #blockHeader {
     font-size: 12px;
     flex-direction: column;
@@ -247,6 +272,10 @@ footer {
   }
 
   #links {
+    flex-direction: column;
+  }
+
+  .bodyDoubleColumns {
     flex-direction: column;
   }
 }

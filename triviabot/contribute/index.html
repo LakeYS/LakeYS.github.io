@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en-US">
   <head>
     <title>TriviaBot: An open-source trivia bot for Discord!</title>
-    <meta http-equiv="refresh" content="0; url=https://opentdb.com"/>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -12,8 +10,47 @@
     ga('create', 'UA-92656775-1', 'auto');
     ga('send', 'pageview');
 
-    </script>
+  	</script>
+
+    <link href="../main.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Varela+Round" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../profile_t.png">
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Lake Y">
+    <meta name="description" content="A trivia bot for Discord powered by discord.js and OpenTDB. Categories include Film, Television, Anime & Manga, Sports, Science & Nature, and more. ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+
   <body>
+    <div id="block">
+      <h1 id="blockHeader">
+        <a id="blockHeaderLogo" href="../index.html"><img id="blockHeaderLogoImg" src="../profile_t.png"> TriviaBot</a>
+        <a class="blockHeaderOption" href="../install.html">Manual Install Guide</a>
+        <a class="blockHeaderOption" href="./index.html">Contribute Questions</a>
+        <a class="blockHeaderOption" href="https://www.patreon.com/LakeYS">Support it on Patreon</a>
+        <a id="inviteButton" class="blockHeaderOption" href="http://lakeys.net/triviabot/invite" target="_none"><span style="font-size: 34px; margin-right: 6px;">+</span> Invite</a>
+      </h1>
+      <div id="blockContent" style="text-align: center;">
+        <p>If you are interested in writing and submitting trivia questions, you can pick from one of the databases below.</p>
+        <p><b>Please DO NOT 'cross-submit' the same question to more than one database.</b></p>
+        <div id="text" class="bodyDoubleColumns">
+          <div class="bodyColumn">
+            <h1 class="bodyColumnHeader">The TriviaBot Database</h1>
+            <img class="dbImg" src="../profile_t.png">
+            <a id="downloadLink" class="linkBtn" href="https://goo.gl/forms/lJcxtaT4iwqFN8Ig1">Contribute to the TriviaBot DB</a>
+          </div>
+          <div class="bodyColumn">
+            <h1 class="bodyColumnHeader">The Open Trivia Database</h1>
+            <img class="dbImg" src="opentdb.png" style="max-width: 348px">
+            <a id="downloadLink" class="linkBtn dbBtn" href="https://opentdb.com/">Contribute to OpenTDB</a>
+          </div>
+        </div>
+        <p>See also: <a href="http://jservice.io" target=_none>jService.io</a></p>
+      </div>
+    </div>
+
+    <footer>Site by Lake Y (<a href=http://lakeys.net target=_none>LakeYS.net</a>).<br>See also: <a href=http://lakeys.net/discord7dtd target=_none>Discord Integration for 7 Days to Die.</a></footer>
   </body>
 </html>
