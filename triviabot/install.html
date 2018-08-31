@@ -56,6 +56,11 @@
           <a class="tocsub" href="#linuxAcc">2.1: Creating the bot account</a><br>
           <a class="tocsub" href="#linuxSetup">2.2: Setting up the bot</a><br>
           <a class="tocsub" href="#linuxRun">2.3: Run the bot!</a><br>
+          <a href="#use">3. Usage Instructions<br>
+          <a class="tocsub" href="#useConfig">3.1: Configuration</a><br>
+          <a class="tocsub" href="#useConfigA">3.1.1: Game Configuration</a><br>
+          <a class="tocsub" href="#useConfigB">3.1.2: Global Configuration</a><br>
+          <a class="tocsub" href="#useConfigC">3.1.3: Maintenance Configuration</a><br>
 
 
           <h1 id="windows">How to Install - Windows</h1>
@@ -119,6 +124,45 @@
           <h2 id="linuxRun">Run the bot!</h2>
           <p>Once you complete all of this, you will be able to run the bot by executing run.sh (Navigate to the bot's directory and enter ./run.sh). If you've done all of this correctly, you will see the following:
           <em>TriviaBot connected to 1 Discord Server.</em></p>
+
+          <h1 id="use">Usage Instructions</h1>
+          <h2 id="useConfig">Configuration</h2>
+          <p>The bot can be configured by editing config.json. See below for documentation on the config options.</p>
+          <h3 id="useConfigA">Game Configuration</h2>
+          <ul>
+            <li><b>disable-admin-commands</b> - Disables all commands that are only usable by administrators. (for example, the "trivia stop" command)</li>
+            <li><b>use-reactions</b> - Enables reaction mode. In reaction mode, answers are given using reactions rather than typed responses.</li>
+            <li><b>prefix</b> - The prefix that users must type before each command. For example, changing this to "!" means users will need to type "!help" for the help command.</li>
+            <li><b>hide-difficulty</b> - When enabled, games will not show their difficulty color. The embed will be blue instead.</li>
+            <li><b>auto-delete-msgs</b> - The bot will automatically delete all of its messages after 15 seconds. The bot does not delete users' messages.</li>
+            <li><b>round-length</b> - How long each round lasts in milliseconds.</li>
+            <li><b>round-timeout</b> - The amount of time between rounds in milliseconds.</li>
+            <li><b>rounds-end-after</b> - How many inactive rounds (where no answers are given) are allowed before a game automatically ends.</li>
+            <li><b>disable-score-display</b> - Prevents the bot from displaying users' scores. Games will still be scored internally.</li>
+            <li><b>score-value</b> - How many points are awarded for each question, based on difficulty.</li>
+          </ul>
+
+          <h3 id="useConfigB">Global Configuration</h2>
+          <ul>
+            <li><b>allow-eval</b> - When enabled, the console will accept commands and JavaScript code. This is disabled by default due to known issues with the bot starting up.</li>
+            <li><b>debug-mode</b> - Debug mode for testing purposes. When enabled, the correct answer to each question will be marked.</li>
+            <li><b>shard-count</b> - How many shards will be spawned. This is only necessary if the bot is in over 2,000 guilds. See the <a href="https://discordapp.com/developers/docs/topics/gateway#sharding" target=_none>Discord sharding documentation</a> for more information.</li>
+            <li><b>disable-version-check</b> - When enabled, the application will not check for new versions on startup. It is strongly recommended that this stays enabled unless there is a severe problem with the version check.</li>
+            <li><b>allow-bots</b> - Whether other bots are allowed to provide answers. Please be mindful and avoid spamming the Open Trivia Database with unnecessary requests.</li>
+            <li><b>databaseURL</b> - The database URL you want to use. The database must be functionally identical to the Open Trivia Database.</li>
+            <li><b>database-cache-size</b> - How many questions the bot will cache on startup. Max: 50</li>
+            <li><b>stat-file</b> - Which file to store statistics in.</li>
+          </ul>
+
+          <h3 id="useConfigC">Maintenance Configuration</h2>
+          A lot of the options in this section are deprecated and/or unused. Here are the ones that are still in use:
+          <ul>
+            <li><b>fallback-mode</b> - When enabled, the bot will start in "fallback mode". The bot will not send any messages in fallback mode. Message IDs are displayed in the console.</li>
+            <li><b>fallback-silent</b> - Disables the message ID display while in fallback mode.</li>
+            <li><b>fallback-exceptions</b> - Channels where the bot will still send messages while in fallback mode.</li>
+          </ul>
+
+          <br>
         </div>
       </div>
     </div>
