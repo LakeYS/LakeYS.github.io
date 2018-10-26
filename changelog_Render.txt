@@ -1,3 +1,44 @@
+<version:2.1>
+	<b>Summary</b>
+	<ul>
+		<li>Brand new Glitch Detector display</li>
+		<li>Overhauled glitch gun</li>
+		<li>New events for detector bricks</li>
+		<li>Improved support for Blockland v20. (Check out B4v21!)</li>
+		<li>Renderman now spawns in the farlands</li>
+		<li>Lots of fixes and small features</li>
+	</ul>
+	<br>
+	<ul>
+		<li>Completely re-balanced the spawn rates. Spawns will be more frequent on high and less frequent on low. Normal spawn rate has been fine-tuned.</li>
+		<li>Overhauled the Glitch Detector with new features and a brand new display.</li>
+		<li>Updated the Glitch Gun. The glitch gun no-longer fires unless there is a target nearby. The range has also been increased.</li>
+		<li>Added new events for adjusting detector bricks: 'setRDetectorLevel', an output event that changes the detection level. 'incRDetectorLevel' and 'decRDetectorLevel' increase and decrease a brick's level.</li>
+		<li>Overhauled Render's ability to freeze players.</li>
+		<li>Improved Render's spawning system. Render will spawn inside bricks, walls, and ceilings less often than before.</li>
+		<li>Improved support for Version 20 of Blockland.</li>
+		<li>Render no-longer spawns during the day (either by day cycle or bright environment) unless enabled in the settings. The new option replaces the old "Only spawn at night (Day cycle)" pref.</li>
+		<li>Render now behaves a bit differently in dark environments.</li>
+		<li>Added the "Shrines admin only" pref.</li>
+		<li>Added the "Minigame prefs admin only" pref. This allows admins to disable Renderman config (via minigame events or Slayer) for non-admin players.</li>
+		<li>The add-on no-longer uses the RTB icon in the prefs menu.</li>
+	</ul>
+	<br>
+	<ul>
+		<li>Fixed Render not spawning in the farlands.</li>
+		<li>Fixed players taking reduced damage at extremely close range to Render.</li>
+		<li>Fixed Render minigame events not working correctly.</li>
+		<li>Fixed detector 'snapping' to values rather than gradually changing.</li>
+		<li>Fixed detector readings appearing to spike when first equipped after not being used for a while.</li>
+		<li>Fixed frozen players bouncing in water.</li>
+		<li>Fixed frozen players sliding on sloped surfaces.</li>
+		<li>Fixed minigame points not being awarded for killing Render in tag mode.</li>
+		<li>Fixed damage mode still showing up as "health" mode in certain areas.</li>
+		<li>(v20) Fixed console errors related the the mod's groups when changing maps.</li>
+		<li>(v20) Fixed console errors related to the AI missing functions from the bot hole mod.</li>
+		<li>(v20) Fixed Renderman occasionally being stuck in the walking or strafing animation.</li>
+	</ul>
+</version>
 <version:2.0.1>
 	<ul>
 		<li>Fixed detector bricks not clearing properly and breaking.</li>
