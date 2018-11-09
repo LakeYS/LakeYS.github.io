@@ -1,4 +1,5 @@
 <!DOCTYPE html><html lang="en-US">
+  <!-- TODO: Update links so the version number doesn't need to be changed each time. -->
   <head>
     <title>TriviaBot - Manual Hosting Guide</title>
     <script>
@@ -35,13 +36,13 @@
       </h1>
 
       <div id="blockContent">
-          <p>TriviaBot is open-source and can be downloaded for free. This guide shows you how to install TriviaBot on a Windows, Linux, or Android system. <b>Note that installing TriviaBot using this method is completely optional. For general use, you can simply <a href="http://lakeys.net/triviabot/invite">invite TriviaBot to your server</a> directly.</b></p>
+          <p>TriviaBot is open-source and can be downloaded for free. This guide shows you how to install TriviaBot on a Windows, Linux, or Android system. <b>Note that installing TriviaBot using this method is completely optional for most cases. For general use, you can simply <a href="http://lakeys.net/triviabot/invite">invite TriviaBot to your server</a> directly.</b></p>
           <p>If you enjoy using TriviaBot as a free and open source application, please consider <a href="https://www.patreon.com/LakeYS">supporting it on patreon.</a></p>
 
           <p><a class="github-button" href="https://github.com/LakeYS/Discord-Trivia-Bot" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star LakeYS/Discord-Trivia-Bot on GitHub">Star</a></p>
 
-          <a id="downloadLink" class="linkBtn" href="https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.4.2/TriviaBot.zip">Download TriviaBot for Windows</a>
-          <a id="downloadLink" class="linkBtn" href="https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.4.2/TriviaBot.tar.gz">Download TriviaBot for Linux</a>
+          <a id="downloadLink" class="linkBtn" href="https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.5.0/TriviaBot.zip">Download TriviaBot for Windows</a>
+          <a id="downloadLink" class="linkBtn" href="https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.5.0/TriviaBot.tar.gz">Download TriviaBot for Linux</a>
 
           <img src="./console.png" id="imgPreview1">
 
@@ -61,7 +62,7 @@
           <a class="tocsub" href="#useConfigA">3.1.1: Game Configuration</a><br>
           <a class="tocsub" href="#useConfigB">3.1.2: Global Configuration</a><br>
           <a class="tocsub" href="#useConfigC">3.1.3: Maintenance Configuration</a><br>
-
+          <a href="#customQuestions">4. Setting Up Custom Questions</a><br>
 
           <h1 id="windows">How to Install - Windows</h1>
           <h2 id="windowsAcc">Creating the bot account</h2>
@@ -75,7 +76,7 @@
 
           <h2 id="windowsSetup">Setting up the bot</h2>
           <ol>
-            <li><a href="https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.4.2/TriviaBot.zip">Download</a> the TriviaBot program and extract it somewhere on your system.</li>
+            <li><a href="https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.5.0/TriviaBot.zip">Download</a> the TriviaBot program and extract it somewhere on your system.</li>
             <li>Install Node.js LTS from <a href="https://nodejs.org/en/download/">this website</a>.</li>
             <li>Once Node.js is finished installing, run install.bat in the bot's folder. This will automatically install the required modules for the bot.</li>
             <li>Right click the bot's config.json file and click "Edit".</li>
@@ -113,7 +114,7 @@
           <ol>
             <li>Open a terminal on your system.</li>
             <li><b>(Skip this step if installing to an Android or Raspberry Pi device.)</b> Install Node.js and NPM. Install build tools if instructed. <a href="https://nodejs.org/en/download/package-manager/">How to install via package manager</a>.</li>
-            <li>Type <em>curl -L https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.4.2/triviabot.tar.gz > triviabot.tar.gz</em> to download the bot's files to an archive named <em>triviabot.tar.gz</em>.</li>
+            <li>Type <em>curl -L https://github.com/LakeYS/Discord-Trivia-Bot/releases/download/v1.5.0/triviabot.tar.gz > triviabot.tar.gz</em> to download the bot's files to an archive named <em>triviabot.tar.gz</em>.</li>
             <li>Type <em>tar -xzf triviabot.tar.gz</em> to extract the archive. This will create a directory named "TriviaBot". Navigate to the directory with <em>cd TriviaBot</em>.</li>
             <li>Type <em>sudo chmod +x run.sh</em>. This gives you permission to execute run.sh. (If this does not work, try <em>chmod +x run.sh</em>)</li>
             <li>Type <em>npm install</em> to install the required packages for the bot to run.</li>
@@ -162,6 +163,16 @@
             <li><b>fallback-exceptions</b> - Channels where the bot will still send messages while in fallback mode.</li>
           </ul>
 
+          <h1 id="customQuestions">Setting Up Custom Questions</h1>
+          One of the perks of self-hosting TriviaBot is that you can add your own questions! Here's how:
+          <ol>
+            <li>Open your config.json and look for "databaseURL". Replace <em>https://opentdb.com</em> with <em>file://./Questions</em>. You can use a different file path if desired.</li>
+            <li>Enter the questions folder. Inside, you'll find a sample database. The sample database shows you how to format your questions and categories.</li>
+            <li>Open the categories.yml file in a text editor. Here, you can add, delete, and edit categories as needed. When creating a new category, make sure you have a matching file for it, named <em>questions_<b>ID</b>.yml</em>.</li>
+            <li>Now edit the question files for your new categories. The included files, named "questions_0.yml", "questions_1.yml", and "questions_2.yml" all contain sample questions.</li>
+            <li>Replace the example quetions as needed and, following the same format, add your own.</li>
+            <li>Now start the bot and test your questions! Typing "trivia help" and "trivia categories" will show you how many questions you have added.</li>
+          </ol>
           <br>
         </div>
       </div>
