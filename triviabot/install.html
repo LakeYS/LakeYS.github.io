@@ -138,9 +138,12 @@
             <li><b>auto-delete-msgs</b> - The bot will automatically delete all of its messages after 15 seconds. The bot does not delete users' messages.</li>
             <li><b>round-length</b> - How long each round lasts in milliseconds.</li>
             <li><b>round-timeout</b> - The amount of time between rounds in milliseconds.</li>
+            <li><b>round-end-warnings-disabled</b> - Disables the "game will end if nobody participates" warnings.</li>
             <li><b>rounds-end-after</b> - How many inactive rounds (where no answers are given) are allowed before a game automatically ends.</li>
             <li><b>disable-score-display</b> - Prevents the bot from displaying users' scores. Games will still be scored internally.</li>
             <li><b>score-value</b> - How many points are awarded for each question, based on difficulty.</li>
+            <li><b>command-whitelist</b> - A whitelist of users that can use commands.
+              <br>Example: <em>["Lake#4898", "LakeTest#9924", "Cake#7123"]</em></li>
           </ul>
 
           <h3 id="useConfigB">Global Configuration</h2>
@@ -150,7 +153,8 @@
             <li><b>shard-count</b> - How many shards will be spawned. This is only necessary if the bot is in over 2,000 guilds. See the <a href="https://discordapp.com/developers/docs/topics/gateway#sharding" target=_none>Discord sharding documentation</a> for more information.</li>
             <li><b>disable-version-check</b> - When enabled, the application will not check for new versions on startup. It is strongly recommended that this stays enabled unless there is a severe problem with the version check.</li>
             <li><b>allow-bots</b> - Whether other bots are allowed to provide answers. Please be mindful and avoid spamming the Open Trivia Database with unnecessary requests.</li>
-            <li><b>databaseURL</b> - The database URL you want to use. The database must be functionally identical to the Open Trivia Database.</li>
+            <li><b>databaseURL</b> - The database URL you want to use. See <a href=#customQuestions>Setting Up Custom Questions</a> for more info. If using the http or https protocol, the server behind it must be functionally identical to the Open Trivia Database API.</li>
+            <li><b>database-merge</b> - For use with file-based custom trivia databases. Allows the use of custom trivia questions along with OpenTDB questions. See <a href=#customQuestions>Setting Up Custom Questions</a> for more info.</li>
             <li><b>database-cache-size</b> - How many questions the bot will cache on startup. Max: 50</li>
             <li><b>stat-file</b> - Which file to store statistics in.</li>
           </ul>
