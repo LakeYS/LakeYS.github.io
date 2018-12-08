@@ -1,0 +1,27 @@
+h1 {
+  font-size: 32pt;
+  margin: 0;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+body {
+  background: url("./bg.png") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  max-width: 75%;
+}
+
+.main {
+  text-align: center;
+}
+
+.extLink {
+  font-size: 16pt;
+}
