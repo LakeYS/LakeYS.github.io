@@ -1,3 +1,11 @@
+<version:2.2>
+	<ul>
+		<li>Added some holiday cheer. You may notice strange effects in snowy environments...</li>
+		<li>Tweaked spawnrates slightly</li>
+		<li>Fixed snow and rain being visible on the death screen</li>
+		<li>Fixed tag mode playing the death sound twice, causing it to sound unusually loud</li>
+	</ul>
+</version>
 <version:2.1>
 	<b>Summary</b>
 	<ul>
