@@ -1,12 +1,3 @@
-h1 {
-  font-size: 32pt;
-  margin: 0;
-}
-
-a {
-  color: #FFFFFF;
-}
-
 body {
   background: url("./bg.png") no-repeat center center fixed;
   background-repeat: no-repeat;
@@ -15,13 +6,46 @@ body {
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   margin: auto;
-  max-width: 75%;
+  max-width: 85%;
+}
+
+h1 {
+  font-family: "Palatino Linotype", serif;
+  font-size: 48pt;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #7B79D0;
+
 }
 
 .main {
-  text-align: center;
+  display: flex;
 }
 
 .extLink {
   font-size: 16pt;
+  text-decoration: none;
+}
+
+.sideImg {
+  box-shadow: 0 0 16px #000000;
+  max-height: 450px;
+  width: 36vw
+}
+
+.side {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .sideImg {
+    width: 100%;
+  }
 }
