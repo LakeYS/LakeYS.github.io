@@ -40,4 +40,12 @@
 		<changelog:http://lakeys.net/changelog_Render.txt>
 	</channel>
 	</addon>
+	<addon:Support_Render_SlenderMod>
+	<desc:An extension to Support_Render that makes Render look like Slenderman.>
+	<channel:*>
+		<version:1.0.0>
+		<file:http://lakeys.github.io/render_slendermod/1.0.0/Support_Render.zip>
+		<changelog:http://lakeys.net/changelog_Render_SlenderMod.txt>
+	</channel>
+	</addon>
 </repository>
