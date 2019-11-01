@@ -1,3 +1,31 @@
+<version:2.3>
+	<b>Summary</b>
+	<ul>
+		<li>Renderman types</li>
+		<li>Mysterious structures may appear if you have the "Affect bricks and lights" preference enabled</li>
+		<li>A new look for the Glitch Detector and, finally, a Glitch Gun model!</li>
+		<li>Render Nights - A new option for survival servers</li>
+		<li>Appearance modifiers - Custom mods to edit Render's appearance</li>
+		<li>Even more assorted features and fixes</li>
+	</ul>
+	<ul>
+		<li>Added a new preference named "Nights" - When enabled, Render will only appear on certain nights, with an adjustable random chance.</li>
+		<li>The add-on now has compatibility features for "appearance modifiers" that can edit Render's appearance. See the forum thread for info: https://forum.blockland.us/index.php?topic=314260.0</li>
+		<li>Render's lights now adapt to the environment.</li>
+		<li>Added structures that can appear if the "Affect bricks and lights" preference is enabled. Structures will never appear on top of existing builds.</li>
+		<li>Added some new sound effects.</li>
+		<li>Updated effects for Glitch Shrines.</li>
+		<li>A console warning now displays if "Transform chance at spawn" is set, but there are no available targets.</li>
+		<li>Slightly tweaked the effects for the Render death screen.</li>
+	</ul>
+	<br>
+	<ul>
+		<li>Fixed the scene for Render deaths being visible below the map when the ground is set to transparent.</li>
+		<li>Fixed certain special deaths by Render bugging out if the target is above ground level.</li>
+		<li>Fixed players not dying to Render while in a vehicle.</li>
+		<li>Fixed "Transform chance at spawn" players never being able to attack in certain cases.</li>
+	</ul>
+</version>
 <version:2.2>
 	<ul>
 		<li>Added some holiday cheer. You may notice strange effects in snowy environments...</li>
