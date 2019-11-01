@@ -8,6 +8,8 @@
 		<li>Appearance modifiers - Custom mods to edit Render's appearance</li>
 		<li>Even more assorted features and fixes</li>
 	</ul>
+
+	<b>Changes</b>
 	<ul>
 		<li>Added a new preference named "Nights" - When enabled, Render will only appear on certain nights, with an adjustable random chance.</li>
 		<li>The add-on now has compatibility features for "appearance modifiers" that can edit Render's appearance. See the forum thread for info: https://forum.blockland.us/index.php?topic=314260.0</li>
