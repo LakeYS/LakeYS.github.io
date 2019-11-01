@@ -48,4 +48,12 @@
 		<changelog:http://lakeys.github.io/changelog_Render_SlenderMod.txt>
 	</channel>
 	</addon>
+	<addon:GameMode_Renderman_Haunting>
+	<desc:An extension to Support_Render that makes Render look like Slenderman.>
+	<channel:*>
+		<version:1.0.0>
+		<file:http://lakeys.github.io/renderman_haunting/1.0.0/GameMode_Renderman_Haunting.zip>
+		<changelog:http://lakeys.github.io/changelog_renderman_haunting.txt>
+	</channel>
+	</addon>
 </repository>
