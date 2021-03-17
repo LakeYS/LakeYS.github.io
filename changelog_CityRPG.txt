@@ -2,16 +2,18 @@
 	<b>Job Trees, Radio, & Real Estate Improvements</b>
 	<br>
 	<b>Real Estate</b>
+	<br>
 	The real estate office is back. Real estate has been rewritten, hooking into the existing lot system established in Alpha 1. This means quick, seamless lot sales. You can visit the real estate office to view city-wide stats, manage and list your own lots, or purchase someone else's lot listing.
 	<br>
 	<b>Job tracks & radio</b>
+	<br>
 	Jobs are now sorted into individual job trees. They show up individually in the jobs menu and have their own team chat. Team chat now functions as a radio that you can use to communicate with other players within your job track. For example, all Police jobs now have a single police radio.
 	<br>
 	<b>Bugfixes</b>
+	<br>
 	This update contains plenty of bugfixes and general polish. See below for the full changes.
 	<br>
 	<b>Full Changelog</b>
-	<br>
 	<ul>
 		<li>Re-organized the bricks menu to place important non-admin bricks at the top</li>
 		<li>Overhauled the job viewer menu - Jobs are now organized into job tracks.</li>
@@ -33,7 +35,6 @@
 	</ul>
 	<br>
 	<b>Changes for Hosting</b>
-	<br>
 	<ul>
 		<li>The way lots work has seen another overhaul. Changes have been made to the way lots are stored, both in your .bls saves and in the config folder. Old lot saves are not compatible and will load as Unclaimed lots.</li>
 		<li>Added Admin Mode, a new toggle for Council Member and its features. Admin mode disables building restrictions, hunger effects, and makes the admin invincible.</li>
@@ -56,7 +57,6 @@
 	</ul>
 	<br>
 	<b>Bugfixes</b>
-	<br>
 	<ul>
 		<li>Internally reworked a lot more code -- most notably including menus and processing of bricks on plant/load. The new reworked menus fix compatibility issues with the latest version of Blockland.</li>
 		<li>Fixed the missing icon for the Knife item.</li>
