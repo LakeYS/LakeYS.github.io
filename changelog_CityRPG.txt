@@ -1,15 +1,15 @@
 <version:0.2.0>
 	<b>Job Trees, Radio, & Real Estate Improvements</b>
 	<br>
-	<b>Real Estate</b>
+	<b>Real Estate: </b>
 	<br>
 	The real estate office is back. Real estate has been rewritten, hooking into the existing lot system established in Alpha 1. This means quick, seamless lot sales. You can visit the real estate office to view city-wide stats, manage and list your own lots, or purchase someone else's lot listing.
 	<br>
-	<b>Job tracks & radio</b>
+	<b>Job tracks & radio: </b>
 	<br>
 	Jobs are now sorted into individual job trees. They show up individually in the jobs menu and have their own team chat. Team chat now functions as a radio that you can use to communicate with other players within your job track. For example, all Police jobs now have a single police radio.
 	<br>
-	<b>Bugfixes</b>
+	<b>Bugfixes: </b>
 	<br>
 	This update contains plenty of bugfixes and general polish. See below for the full changes.
 	<br>
