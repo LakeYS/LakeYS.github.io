@@ -1,18 +1,17 @@
+<version:0.2.1>
+	Fixed an exploit where players could "buy" the real estate brick as a lot, granting them ownership of the bricks connected to it.
+</version>
 <version:0.2.0>
 	<b>Job Trees, Radio, & Real Estate Improvements</b>
-	<br>
-	<b>Real Estate: </b>
-	<br>
+	<b>Real Estate</b>
 	The real estate office is back. Real estate has been rewritten, hooking into the existing lot system established in Alpha 1. This means quick, seamless lot sales. You can visit the real estate office to view city-wide stats, manage and list your own lots, or purchase someone else's lot listing.
-	<br>
-	<b>Job tracks & radio: </b>
-	<br>
+
+	<b>Job tracks & radio</b>
 	Jobs are now sorted into individual job trees. They show up individually in the jobs menu and have their own team chat. Team chat now functions as a radio that you can use to communicate with other players within your job track. For example, all Police jobs now have a single police radio.
-	<br>
-	<b>Bugfixes: </b>
-	<br>
+
+	<b>Bugfixes</b>
 	This update contains plenty of bugfixes and general polish. See below for the full changes.
-	<br>
+
 	<b>Full Changelog</b>
 	<ul>
 		<li>Re-organized the bricks menu to place important non-admin bricks at the top</li>
@@ -33,7 +32,7 @@
 		<li>Updated the default Blocko Town map: Added more spawns and improved the lot layout.</li>
 		<li>Corrected typo in "Hunter cramps seize..."</li>
 	</ul>
-	<br>
+
 	<b>Changes for Hosting</b>
 	<ul>
 		<li>The way lots work has seen another overhaul. Changes have been made to the way lots are stored, both in your .bls saves and in the config folder. Old lot saves are not compatible and will load as Unclaimed lots.</li>
@@ -55,7 +54,7 @@
 		<li>The game-mode now detects if the active save file is from an older version of CityRPG and displays a warning about compatibility accordingly.</li>
 		<li>Fixed settings not registering correctly when Blockland Glass is disabled.</li>
 	</ul>
-	<br>
+
 	<b>Bugfixes</b>
 	<ul>
 		<li>Internally reworked a lot more code -- most notably including menus and processing of bricks on plant/load. The new reworked menus fix compatibility issues with the latest version of Blockland.</li>
