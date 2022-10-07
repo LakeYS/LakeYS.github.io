@@ -59,8 +59,8 @@
 	<addon:GameMode_CityRPG4>
 	<desc:A sandbox-simulation styled game-mode that simulates the life of a blocky city.>
 	<channel:*>
-		<version:1.0.0>
-		<file:http://lakeys.github.io/cityrpg/1.0.0/GameMode_CityRPG4.zip>
+		<version:1.1.0>
+		<file:http://lakeys.github.io/cityrpg/1.1.0/GameMode_CityRPG4.zip>
 		<changelog:http://lakeys.github.io/changelog_CityRPG.txt>
 	</channel>
 	</addon>
